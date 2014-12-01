@@ -1,6 +1,6 @@
 ﻿=== Plugin Vulnerabilities ===
 Contributors: WhiteFirDesign
-Tags: security, vulnerabilities, plugins
+Tags: plugins, security, vulnerability, vulnerabilities
 Requires at least: 4.0
 Tested up to: 4.0
 Stable tag: trunk
@@ -17,6 +17,16 @@ Because we verify each vulnerability before including it not all known vulnerabi
 
 If you want to let us know of a missing vulnerability or if we need to correct something in an included vulnerability, please leave a message in the support forum or send an email to pluginvulnerabilities@whitefirdesign.com. For missing vulnerabilities please include a link to the details of the vulnerability.
 
+**Stats** (As of December 1, 2014)
+
+* 52 vulnerabilities included
+* 7 included vulnerabilities are in the current version of plugins (6 of these plugins have been [removed from the Plugin Directory](https://wordpress.org/plugins/no-longer-in-directory/))
+* 3 vulnerabilities fixed in part due to our work on this plugin
+* Top vulnerability discoverers:
+ * [dxwsecurity](https://security.dxw.com/advisories/): 27 vulnerabilities
+ * [High-Tech Bridge](https://www.htbridge.com/advisory/): 7 vulnerabilities
+
+
 == Installation ==
 
 1. Copy plugin files to the plugins folder.
@@ -32,6 +42,9 @@ If you want to let us know of a missing vulnerability or if we need to correct s
 2. Full Listing of Vulnerabilities That Have Existed in Installed Plugins
 
 == Changelog ==
+
+= 1.0.1 =
+* Added 6 vulnerabilities
 
 = 1.0 =
 * Initial release

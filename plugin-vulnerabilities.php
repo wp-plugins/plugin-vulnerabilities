@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Plugin Vulnerabilities
-Plugin URI: http://www.whitefirdesign.com/plugin-vulnerabilities
+Plugin URI: https://www.whitefirdesign.com/plugin-vulnerabilities
 Description: Lists vulnerabilities that exist and previously existed in installed plugins.
-Version: 1.0
+Version: 1.0.1
 Author: White Fir Design
-Author URI: http://www.whitefirdesign.com/
+Author URI: https://www.whitefirdesign.com/
 License: GPLv2
 Text Domain: plugin-vulnerabilities
 Domain Path: /languages
