@@ -34,7 +34,7 @@ $plugin_vulnerabilities["google-calendar-events"] = array(
 $plugin_vulnerabilities["google-document-embedder"] = array(
 	"1" => array(
 		"FirstVersion" => "2.5",
-		"LastVersion" => "2.5.15",
+		"LastVersion" => "2.5.16",
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://security.szurek.pl/google-doc-embedder-2514-sql-injection.html"
 	),

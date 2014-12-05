@@ -8,7 +8,7 @@ $plugin_vulnerabilities["image-symlinks"] = array(
 	"1" => array(
 		"FirstVersion" => "0.5",
 		"LastVersion" => "0.8.2",
-		"TypeOfVulnerability" => "remote file upload",
+		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "http://www.iransec.net/forums/index.php?/topic/2680-wordpress-image-symlinks-plugin-arbitrary-file-upload-vulnerability/"
 	),
 );
@@ -26,7 +26,7 @@ $plugin_vulnerabilities["infusionsoft"] = array(
 	"1" => array(
 		"FirstVersion" => "1.5.3",
 		"LastVersion" => "1.5.10",
-		"TypeOfVulnerability" => "remote file upload",
+		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "https://research.g0blin.co.uk/cve-2014-6446/"
 	),
 );

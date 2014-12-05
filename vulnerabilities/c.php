@@ -20,6 +20,12 @@ $plugin_vulnerabilities["cm-download-manager"] = array(
 		"TypeOfVulnerability" => "remote code execution",
 		"URL" => "http://packetstormsecurity.com/files/129183/WordPress-CM-Download-Manager-2.0.0-Code-Injection.html"
 	),
+	"2" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "2.0.6",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129357/WordPress-CM-Download-Manager-2.0.6-XSS-CSRF.html"
+	),
 );
 
 $plugin_vulnerabilities["contact-form-7-to-database-extension"] = array(

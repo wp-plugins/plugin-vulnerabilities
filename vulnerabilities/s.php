@@ -8,7 +8,7 @@ $plugin_vulnerabilities["seo-watcher"] = array(
 	"1" => array(
 		"FirstVersion" => "1.3.2",
 		"LastVersion" => "1.3.3",
-		"TypeOfVulnerability" => "remote file upload",
+		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "http://packetstormsecurity.com/files/123493/WordPress-SEO-Watcher-Remote-Code-Execution.html"
 	),
 );
@@ -17,7 +17,7 @@ $plugin_vulnerabilities["sexy-contact-form"] = array(
 	"1" => array(
 		"FirstVersion" => "0.9.1",
 		"LastVersion" => "0.9.8",
-		"TypeOfVulnerability" => "remote file upload",
+		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "http://www.homelab.it/index.php/2014/10/24/creative-contact-form-unauthenticated-shell-upload/"
 	),
 );

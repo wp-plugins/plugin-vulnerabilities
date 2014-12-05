@@ -17,7 +17,7 @@ $plugin_vulnerabilities["woopra"] = array(
 	"1" => array(
 		"FirstVersion" => "1.4.1",
 		"LastVersion" => "1.4.3.1",
-		"TypeOfVulnerability" => "remote file upload",
+		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "http://packetstormsecurity.com/files/123525/WordPress-Woopra-Remote-Code-Execution.html"
 	),
 );
@@ -35,7 +35,7 @@ $plugin_vulnerabilities["wp-copysafe-pdf"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",
 		"LastVersion" => "0.7",
-		"TypeOfVulnerability" => "remote file upload",
+		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "https://www.htbridge.com/advisory/HTB23236"
 	),
 );
@@ -62,8 +62,17 @@ $plugin_vulnerabilities["wp-slimstat-ex"] = array(
 	"1" => array(
 		"FirstVersion" => "2.1",
 		"LastVersion" => "2.1.2",
-		"TypeOfVulnerability" => "remote file upload",
+		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "http://packetstormsecurity.com/files/123494/WordPress-Slimstat-Ex-Code-Execution.html"
+	),
+);
+
+$plugin_vulnerabilities["wp-security-scan"] = array(
+	"1" => array(
+		"FirstVersion" => "3.0.2",
+		"LastVersion" => "4.0.4",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
+		"URL" => "http://packetstormsecurity.com/files/125218/WordPress-Acunetix-WP-Security-Make-Backup-4.0.3-CSRF.html"
 	),
 );
 
@@ -71,7 +80,7 @@ $plugin_vulnerabilities["wp-special-textboxes"] = array(
 	"1" => array(
 		"FirstVersion" => "5.0.85",
 		"LastVersion" => "5.1.90",
-		"TypeOfVulnerability" => "remote file upload",
+		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "https://wordpress.org/support/topic/wp-special-textboxes-was-exploited-with-backdoor"
 	),
 );
@@ -80,7 +89,7 @@ $plugin_vulnerabilities["wysija-newsletters"] = array(
 	"1" => array(
 		"FirstVersion" => "1.1",
 		"LastVersion" => "2.6.7",
-		"TypeOfVulnerability" => "remote file upload",
+		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "http://packetstormsecurity.com/files/127363/Wordpress-MailPoet-wysija-newsletters-Unauthenticated-File-Upload.html"
 	),
 );

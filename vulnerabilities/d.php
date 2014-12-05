@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["db-backup"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "4.5",
+		"TypeOfVulnerability" => "arbitrary file download",
+		"URL" => "http://www.exploit-db.com/exploits/35378/"
+	),
+);
+
 $plugin_vulnerabilities["disable-comments"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",
