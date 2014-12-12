@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["wp-error-fix"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "2.0",
+		"TypeOfVulnerability" => "information disclosure",
+		"URL" => "https://wordpress.org/support/topic/security-logs-folder-does-not-block-access"
+	),
+);
+
 $plugin_vulnerabilities["ewww-image-optimizer"] = array(
 	"1" => array(
 		"FirstVersion" => "1.4.3",

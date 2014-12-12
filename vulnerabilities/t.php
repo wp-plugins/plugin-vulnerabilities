@@ -8,8 +8,17 @@ $plugin_vulnerabilities["theme-my-login"] = array(
 	"1" => array(
 		"FirstVersion" => "6.0",
 		"LastVersion" => "6.3.9",
-		"TypeOfVulnerability" => "local file include",
+		"TypeOfVulnerability" => "local file inclusion (LFI)",
 		"URL" => "https://security.dxw.com/advisories/lfi-in-theme-my-login/"
+	),
+);
+
+$plugin_vulnerabilities["tinymce-thumbnail-gallery"] = array(
+	"1" => array(
+		"FirstVersion" => "v1.0.4",
+		"LastVersion" => "v1.0.7",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://www.exploit-db.com/exploits/19022/"
 	),
 );
 

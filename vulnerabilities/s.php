@@ -22,6 +22,15 @@ $plugin_vulnerabilities["sexy-contact-form"] = array(
 	),
 );
 
+$plugin_vulnerabilities["simple-download-button-shortcode"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://packetstormsecurity.com/files/113415/WordPress-Simple-Download-Button-Shortcode-1.0-File-Disclosure.html"
+	),
+);
+
 $plugin_vulnerabilities["sp-client-document-manager"] = array(
 	"1" => array(
 		"FirstVersion" => "1.2.7",

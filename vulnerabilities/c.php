@@ -4,6 +4,24 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["cart66-lite"] = array(
+	"1" => array(
+		"FirstVersion" => "1.4.0",
+		"LastVersion" => "1.5.1.17",
+		"TypeOfVulnerability" => "SQL Injection",
+		"URL" => "http://security.szurek.pl/cart66-lite-wordpress-ecommerce-15117-blind-sql-injection.html"
+	),
+);
+
+$plugin_vulnerabilities["category-list-portfolio-page"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.2.3",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.exploit-db.com/exploits/17872/"
+	),
+);
+
 $plugin_vulnerabilities["clean-and-simple-contact-form-by-meg-nicholas"] = array(
 	"1" => array(
 		"FirstVersion" => "4.1.3",

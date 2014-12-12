@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["really-easy-slider"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1",
+		"LastVersion" => "0.1",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.exploit-db.com/exploits/17872/"
+	),
+);
+
 $plugin_vulnerabilities["rich-counter"] = array(
 	"1" => array(
 		"FirstVersion" => "1.1.0",

@@ -21,3 +21,12 @@ $plugin_vulnerabilities["user-domain-whitelist"] = array(
 		"URL" => "https://security.dxw.com/advisories/xss-and-csrf-in-user-domain-whitelist-v1-4/"
 	),
 );
+
+$plugin_vulnerabilities["users-ultra"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.11",
+		"LastVersion" => "1.3.58",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "http://packetstormsecurity.com/files/128473/WordPress-Users-Ultra-1.3.37-SQL-Injection.html"
+	),
+);

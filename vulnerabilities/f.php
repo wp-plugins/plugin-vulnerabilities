@@ -13,6 +13,15 @@ $plugin_vulnerabilities["feature-comments"] = array(
 	),
 );
 
+$plugin_vulnerabilities["filedownload"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1",
+		"LastVersion" => "0.1",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://www.exploit-db.com/exploits/17858/"
+	),
+);
+
 $plugin_vulnerabilities["fourteen-extended"] = array(
 	"1" => array(
 		"FirstVersion" => "1.2.1",
