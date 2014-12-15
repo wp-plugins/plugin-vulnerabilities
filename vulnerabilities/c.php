@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["cardoza-facebook-like-box"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "2.8.2",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129506/WordPress-Facebook-Like-Box-2.8.2-CSRF-XSS.html"
+	),
+);
+
 $plugin_vulnerabilities["cart66-lite"] = array(
 	"1" => array(
 		"FirstVersion" => "1.4.0",

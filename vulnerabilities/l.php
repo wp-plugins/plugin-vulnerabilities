@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["lightbox-photo-gallery"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129507/WordPress-Lightbox-Photo-Gallery-1.0-CSRF-XSS.html"
+	),
+);
+
 $plugin_vulnerabilities["like-dislike-counter-for-posts-pages-and-comments"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

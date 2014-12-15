@@ -19,15 +19,15 @@ If you want to let us know of a missing vulnerability or if we need to correct s
 
 **Stats** (As of December 12, 2014)
 
-* 90 vulnerabilities included
-* 13 included vulnerabilities are in the most recent version of plugins (12 of these plugins have been [removed from the Plugin Directory](https://wordpress.org/plugins/no-longer-in-directory/))
-* 6 vulnerabilities have been fixed in part due to our work on this plugin
-* 2 included [vulnerabilities in security plugins](https://www.whitefirdesign.com/plugin-vulnerabilities/vulnerabilities-in-wordpress-security-plugins.html)
+* 104 vulnerabilities included
+* 18 included vulnerabilities are in the most recent version of plugins (17 of these plugins have been [removed from the Plugin Directory](https://wordpress.org/plugins/no-longer-in-directory/))
+* 7 vulnerabilities have been fixed in part due to our work on this plugin
+* 3 included [vulnerabilities in security plugins](https://www.whitefirdesign.com/plugin-vulnerabilities/vulnerabilities-in-wordpress-security-plugins.html)
 * Top vulnerability types:
- * cross-site request forgery (CSRF): 19 vulnerabilities
- * reflected cross-site scripting (XSS): 17 vulnerabilities
- * unrestricted file upload: 16 vulnerabilities
- * arbitrary file viewing 11 vulnerabilities
+ * cross-site request forgery (CSRF)/cross-site scripting (XSS): 19 vulnerabilities
+ * reflected cross-site scripting (XSS): 18 vulnerabilities
+ * unrestricted file upload: 17 vulnerabilities
+ * arbitrary file viewing: 11 vulnerabilities
  * SQL injection: 11 vulnerabilities
 * Top vulnerability discoverers:
  * [dxwsecurity](https://security.dxw.com/advisories/): 27 vulnerabilities
@@ -50,6 +50,9 @@ If you want to let us know of a missing vulnerability or if we need to correct s
 2. Full Listing of Vulnerabilities That Have Existed in Installed Plugins
 
 == Changelog ==
+
+= 1.0.4 =
+* Added 14 vulnerabilities
 
 = 1.0.3 =
 * Added 30 vulnerabilities

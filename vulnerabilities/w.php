@@ -55,12 +55,39 @@ $plugin_vulnerabilities["wp-backitup"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wp-construction-mode"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.91",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129511/WordPress-WP-Construction-Mode-1.91-XSS.html"
+	),
+);
+
 $plugin_vulnerabilities["wp-copysafe-pdf"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",
 		"LastVersion" => "0.7",
 		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "https://www.htbridge.com/advisory/HTB23236"
+	),
+);
+
+$plugin_vulnerabilities["wp-dbmanager"] = array(
+	"1" => array(
+		"FirstVersion" => "1.00",
+		"LastVersion" => "2.74",
+		"TypeOfVulnerability" => "information disclosure",
+		"URL" => "https://github.com/wpscanteam/wpscan/issues/422"
+	),
+);
+
+$plugin_vulnerabilities["wp-fb-autoconnect"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "4.0.5",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129508/WordPress-WP-FB-AutoConnect-4.0.5-CSRF-XSS.html"
 	),
 );
 
@@ -156,7 +183,34 @@ $plugin_vulnerabilities["wp-support-plus-responsive-ticket-system"] = array(
 		"URL" => "http://www.exploit-db.com/exploits/34589/"
 	),
 );
-	
+
+$plugin_vulnerabilities["wp-symposium"] = array(
+	"1" => array(
+		"FirstVersion" => "13.04",
+		"LastVersion" => "14.11",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.homelab.it/index.php/2014/12/11/wordpress-wp-symposium-shell-upload/"
+	),
+);
+
+$plugin_vulnerabilities["wp-timed-popup"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.3",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129510/WordPress-Timed-Popup-1.3-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["wp-vipergb"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.3.10",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://wordpress.org/plugins/wp-vipergb/developers/"
+	),
+);
+
 $plugin_vulnerabilities["wysija-newsletters"] = array(
 	"1" => array(
 		"FirstVersion" => "1.1",

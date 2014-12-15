@@ -31,6 +31,51 @@ $plugin_vulnerabilities["simple-download-button-shortcode"] = array(
 	),
 );
 
+$plugin_vulnerabilities["simple-ip-ban"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.2.3",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129500/WordPress-IP-Ban-1.2.3-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["simple-sticky-footer"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.3.2",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129503/WordPress-Simple-Sticky-Footer-1.3.2-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["simple-visitor-stat"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129502/WordPress-Simple-Visitor-Stat-Cross-Site-Scripting.html"
+	),
+);
+
+$plugin_vulnerabilities["sliding-recent-posts"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.0.0",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129504/WordPress-Sliding-Recent-Posts-1.0-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["sliding-social-icons"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.61",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129509/WordPress-Sliding-Social-Icons-1.61-CSRF-XSS.html"
+	),
+);
+
 $plugin_vulnerabilities["sp-client-document-manager"] = array(
 	"1" => array(
 		"FirstVersion" => "1.2.7",
