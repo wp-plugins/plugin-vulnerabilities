@@ -136,6 +136,15 @@ $plugin_vulnerabilities["wp-photo-album-plus"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wp-rss-aggregator"] = array(
+	"1" => array(
+		"FirstVersion" => "4.4",
+		"LastVersion" => "4.6.3",
+		"TypeOfVulnerability" => "post deletion",
+		"URL" => "http://security.szurek.pl/wp-rss-aggregator-463-post-deletion.html"
+	),
+);
+
 $plugin_vulnerabilities["wp-slimstat-ex"] = array(
 	"1" => array(
 		"FirstVersion" => "2.1",
@@ -207,7 +216,25 @@ $plugin_vulnerabilities["wp-vipergb"] = array(
 		"FirstVersion" => "1.0.0",
 		"LastVersion" => "1.3.10",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
-		"URL" => "https://wordpress.org/plugins/wp-vipergb/developers/"
+		"URL" => "http://packetstormsecurity.com/files/129501/WordPress-WP-ViperGB-1.3.10-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["wpcommenttwit"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1",
+		"LastVersion" => "0.5",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129579/WordPress-twitterDash-2.1-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["wpdatatables"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0.53",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-shell-upload-vulnerability/"
 	),
 );
 

@@ -55,6 +55,15 @@ $plugin_vulnerabilities["cm-download-manager"] = array(
 	),
 );
 
+$plugin_vulnerabilities["codecanyon-3958969-wpdatatables-responsive-tables-in-wordpress"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0.53",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-shell-upload-vulnerability/"
+	),
+);
+
 $plugin_vulnerabilities["contact-form-7-to-database-extension"] = array(
 	"1" => array(
 		"FirstVersion" => "2.7.2",

@@ -22,6 +22,21 @@ $plugin_vulnerabilities["sexy-contact-form"] = array(
 	),
 );
 
+$plugin_vulnerabilities["showbiz"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.5.2",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://marketblog.envato.com/news/plugin-vulnerability/"
+	),
+	"2" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.7.1",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://whatisgon.wordpress.com/2014/11/30/another-revslider-vulnerability/"
+	),
+);
+
 $plugin_vulnerabilities["simple-download-button-shortcode"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
@@ -82,6 +97,15 @@ $plugin_vulnerabilities["sp-client-document-manager"] = array(
 		"LastVersion" => "2.4.3",
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://packetstormsecurity.com/files/129212/WordPress-SP-Client-Document-Manager-2.4.1-SQL-Injection.html"
+	),
+);
+
+$plugin_vulnerabilities["spnbabble"] = array(
+	"1" => array(
+		"FirstVersion" => "1.1",
+		"LastVersion" => "1.4.1",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129580/WordPress-SPNbabble-1.4.1-CSRF-XSS.html"
 	),
 );
 

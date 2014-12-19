@@ -22,6 +22,15 @@ $plugin_vulnerabilities["member-approval"] = array(
 	),
 );
 
+$plugin_vulnerabilities["mikiurl-wordpress-eklentisi"] = array(
+	"1" => array(
+		"FirstVersion" => "",
+		"LastVersion" => "2.0",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129577/Mikiurl-WordPress-Eklentisi-2.0-CSRF-XSS.html"
+	),
+);
+
 $plugin_vulnerabilities["mtouch-quiz"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

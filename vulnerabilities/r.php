@@ -13,6 +13,21 @@ $plugin_vulnerabilities["really-easy-slider"] = array(
 	),
 );
 
+$plugin_vulnerabilities["revslider"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "4.1.4",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://marketblog.envato.com/news/plugin-vulnerability/"
+	),
+	"2" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "3.0.95",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://whatisgon.wordpress.com/2014/11/30/another-revslider-vulnerability/"
+	),
+);
+
 $plugin_vulnerabilities["rich-counter"] = array(
 	"1" => array(
 		"FirstVersion" => "1.1.0",

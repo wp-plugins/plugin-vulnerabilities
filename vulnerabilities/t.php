@@ -30,3 +30,12 @@ $plugin_vulnerabilities["twitget"] = array(
 		"URL" => "https://security.dxw.com/advisories/csrfxss-vulnerability-in-twitget-3-3-1/"
 	),
 );
+
+$plugin_vulnerabilities["twitterdash"] = array(
+	"1" => array(
+		"FirstVersion" => "v1.00",
+		"LastVersion" => "2.1",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129579/WordPress-twitterDash-2.1-CSRF-XSS.html"
+	),
+);

@@ -17,7 +17,7 @@ Because we verify each vulnerability before including it not all known vulnerabi
 
 If you want to let us know of a missing vulnerability or if we need to correct something in an included vulnerability, please leave a message in the support forum or send an email to pluginvulnerabilities@whitefirdesign.com. For missing vulnerabilities please include a link to the details of the vulnerability.
 
-**Stats** (As of December 12, 2014)
+**Stats** (As of December 15, 2014)
 
 * 104 vulnerabilities included
 * 18 included vulnerabilities are in the most recent version of plugins (17 of these plugins have been [removed from the Plugin Directory](https://wordpress.org/plugins/no-longer-in-directory/))
@@ -50,6 +50,9 @@ If you want to let us know of a missing vulnerability or if we need to correct s
 2. Full Listing of Vulnerabilities That Have Existed in Installed Plugins
 
 == Changelog ==
+
+= 1.0.5 =
+* Added 16 vulnerabilities
 
 = 1.0.4 =
 * Added 14 vulnerabilities

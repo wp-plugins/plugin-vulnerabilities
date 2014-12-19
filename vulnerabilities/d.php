@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["dandyid-services"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.1",
+		"LastVersion" => "1.5.9",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129575/WordPress-DandyID-Services-ID-1.5.9-CSRF-XSS.html"
+	),
+);
+
 $plugin_vulnerabilities["db-backup"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
@@ -19,6 +28,15 @@ $plugin_vulnerabilities["disable-comments"] = array(
 		"LastVersion" => "1.0.3",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
 		"URL" => "https://security.dxw.com/advisories/csrf-in-disable-comments-1-0-3/"
+	),
+);
+
+$plugin_vulnerabilities["download-manager"] = array(
+	"1" => array(
+		"FirstVersion" => "2.7.0",
+		"LastVersion" => "2.7.4",
+		"TypeOfVulnerability" => "remote code execution",
+		"URL" => "http://www.homelab.it/index.php/2014/12/13/wordpress-download-manager-rce/"
 	),
 );
 

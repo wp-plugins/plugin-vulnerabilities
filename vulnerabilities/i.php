@@ -30,3 +30,12 @@ $plugin_vulnerabilities["infusionsoft"] = array(
 		"URL" => "https://research.g0blin.co.uk/cve-2014-6446/"
 	),
 );
+
+$plugin_vulnerabilities["itwitter"] = array(
+	"1" => array(
+		"FirstVersion" => "Version 0.01 (05-06-2009)",
+		"LastVersion" => "Version 0.04 (30-07-2009)",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://vulnerability-lab.com/get_content.php?id=1375"
+	),
+);

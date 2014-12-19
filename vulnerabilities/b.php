@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["bird-feeder"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.2.3",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://vulnerability-lab.com/get_content.php?id=1372"
+	),
+);
+
 $plugin_vulnerabilities["bp-group-documents"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
