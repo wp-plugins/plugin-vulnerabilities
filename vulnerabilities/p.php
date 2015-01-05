@@ -37,6 +37,15 @@ $plugin_vulnerabilities["pica-photo-gallery"] = array(
 	),
 );
 
+$plugin_vulnerabilities["pictobrowser-gallery"] = array(
+	"1" => array(
+		"FirstVersion" => "0.2 ",
+		"LastVersion" => "0.3.1",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"URL" => "http://packetstormsecurity.com/files/129638/WordPress-PictoBrowser-0.3.1-CSRF-XSS.html"
+	),
+);
+
 $plugin_vulnerabilities["player"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
@@ -67,5 +76,23 @@ $plugin_vulnerabilities["post-expirator"] = array(
 		"LastVersion" => "2.1.1",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "https://security.dxw.com/advisories/csrf-and-xss-in-post-expirator-2-1-1/"
+	),
+);
+
+$plugin_vulnerabilities["post-to-twitter"] = array(
+	"1" => array(
+		"FirstVersion" => "0.6",
+		"LastVersion" => "0.8",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"URL" => "http://packetstormsecurity.com/files/129639/WordPress-Twitter-0.7-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["pwgrandom"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.11",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"URL" => "http://packetstormsecurity.com/files/129640/WordPress-PWG-Random-1.11-CSRF-XSS.html"
 	),
 );

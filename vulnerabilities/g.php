@@ -39,3 +39,12 @@ $plugin_vulnerabilities["google-document-embedder"] = array(
 		"URL" => "http://security.szurek.pl/google-doc-embedder-2514-sql-injection.html"
 	),
 );
+
+$plugin_vulnerabilities["gslideshow"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1",
+		"LastVersion" => "0.1",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129637/WordPress-gSlideShow-0.1-CSRF-XSS.html"
+	),
+);

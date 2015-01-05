@@ -73,6 +73,24 @@ $plugin_vulnerabilities["simple-visitor-stat"] = array(
 	),
 );
 
+$plugin_vulnerabilities["simpleflickr"] = array(
+	"1" => array(
+		"FirstVersion" => "1.1",
+		"LastVersion" => "3.3",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"URL" => "http://packetstormsecurity.com/files/129642/WordPress-SimpleFlickr-3.0.3-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["simplelife"] = array(
+	"1" => array(
+		"FirstVersion" => "1.2",
+		"LastVersion" => "1.2",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"URL" => "http://packetstormsecurity.com/files/129641/WordPress-Simplelife-1.2-CSRF-XSS.html"
+	),
+);
+
 $plugin_vulnerabilities["sliding-recent-posts"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.0",

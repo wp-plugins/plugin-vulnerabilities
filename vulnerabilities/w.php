@@ -118,6 +118,15 @@ $plugin_vulnerabilities["wp-html-sitemap"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wp-limit-posts-automatically"] = array(
+	"1" => array(
+		"FirstVersion" => "0.7",
+		"LastVersion" => "0.7",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"URL" => "http://packetstormsecurity.com/files/129647/WordPress-WP-Limit-Posts-Automatically-0.7-CSRF-XSS.html"
+	),
+);
+
 $plugin_vulnerabilities["wp-marketplace"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.0 beta",
@@ -145,21 +154,21 @@ $plugin_vulnerabilities["wp-rss-aggregator"] = array(
 	),
 );
 
-$plugin_vulnerabilities["wp-slimstat-ex"] = array(
-	"1" => array(
-		"FirstVersion" => "2.1",
-		"LastVersion" => "2.1.2",
-		"TypeOfVulnerability" => "unrestricted file upload",
-		"URL" => "http://packetstormsecurity.com/files/123494/WordPress-Slimstat-Ex-Code-Execution.html"
-	),
-);
-
 $plugin_vulnerabilities["wp-security-scan"] = array(
 	"1" => array(
 		"FirstVersion" => "3.0.2",
 		"LastVersion" => "4.0.4",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
 		"URL" => "http://packetstormsecurity.com/files/125218/WordPress-Acunetix-WP-Security-Make-Backup-4.0.3-CSRF.html"
+	),
+);
+
+$plugin_vulnerabilities["wp-slimstat-ex"] = array(
+	"1" => array(
+		"FirstVersion" => "2.1",
+		"LastVersion" => "2.1.2",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://packetstormsecurity.com/files/123494/WordPress-Slimstat-Ex-Code-Execution.html"
 	),
 );
 
@@ -208,6 +217,15 @@ $plugin_vulnerabilities["wp-timed-popup"] = array(
 		"LastVersion" => "1.3",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129510/WordPress-Timed-Popup-1.3-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["wp-unique-article-header-image"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129646/WordPress-WP-Unique-Article-Header-Image-1.0-CSRF-XSS.html"
 	),
 );
 

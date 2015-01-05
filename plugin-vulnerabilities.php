@@ -3,14 +3,14 @@
 Plugin Name: Plugin Vulnerabilities
 Plugin URI: https://www.whitefirdesign.com/plugin-vulnerabilities
 Description: Alerts when installed plugins contain known security vulnerabilities. Also lists vulnerabilities that exist in other versions of installed plugins.
-Version: 1.0.5
+Version: 1.0.6
 Author: White Fir Design
 Author URI: https://www.whitefirdesign.com/
 License: GPLv2
 Text Domain: plugin-vulnerabilities
 Domain Path: /languages
 
-Copyright 2014 White Fir Design
+Copyright 2014-2015 White Fir Design
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License

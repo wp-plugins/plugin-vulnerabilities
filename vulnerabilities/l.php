@@ -17,7 +17,7 @@ $plugin_vulnerabilities["like-dislike-counter-for-posts-pages-and-comments"] = a
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.2.3",
-		"TypeOfVulnerability" => "SQL Injection",
+		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://packetstormsecurity.com/files/128178/WordPress-Like-Dislike-Counter-1.2.3-SQL-Injection.html"
 	),
 );

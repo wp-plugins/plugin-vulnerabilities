@@ -30,3 +30,12 @@ $plugin_vulnerabilities["fourteen-extended"] = array(
 		"URL" => "https://security.dxw.com/advisories/reflected-xss-in-fourteen-extended-allows-arbitrary-javascript-to-be-run-in-administrator-session/"
 	),
 );
+
+$plugin_vulnerabilities["frontend-uploader"] = array(
+	"1" => array(
+		"FirstVersion" => "0.9",
+		"LastVersion" => "0.9.2",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129749/WordPress-Frontend-Uploader-0.9.2-Cross-Site-Scripting.html"
+	),
+);

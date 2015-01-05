@@ -17,7 +17,7 @@ $plugin_vulnerabilities["cart66-lite"] = array(
 	"1" => array(
 		"FirstVersion" => "1.4.0",
 		"LastVersion" => "1.5.1.17",
-		"TypeOfVulnerability" => "SQL Injection",
+		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://security.szurek.pl/cart66-lite-wordpress-ecommerce-15117-blind-sql-injection.html"
 	),
 );

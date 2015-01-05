@@ -31,6 +31,15 @@ $plugin_vulnerabilities["infusionsoft"] = array(
 	),
 );
 
+$plugin_vulnerabilities["is-human"] = array(
+	"1" => array(
+		"FirstVersion" => "1.3.3",
+		"LastVersion" => "1.4.2",
+		"TypeOfVulnerability" => "remote code execution",
+		"URL" => "http://packetstormsecurity.com/files/101497/Is-Human-1.4.2-WordPress-Plugin-Command-Execution.html"
+	),
+);
+
 $plugin_vulnerabilities["itwitter"] = array(
 	"1" => array(
 		"FirstVersion" => "Version 0.01 (05-06-2009)",

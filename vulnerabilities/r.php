@@ -13,6 +13,15 @@ $plugin_vulnerabilities["really-easy-slider"] = array(
 	),
 );
 
+$plugin_vulnerabilities["rent-a-car"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.exploit-db.com/exploits/17872/"
+	),
+);
+
 $plugin_vulnerabilities["revslider"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

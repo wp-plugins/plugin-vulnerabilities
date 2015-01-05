@@ -31,6 +31,24 @@ $plugin_vulnerabilities["disable-comments"] = array(
 	),
 );
 
+$plugin_vulnerabilities["disclosure-policy-plugin"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "remote file inclusion (RFI)",
+		"URL" => "http://www.exploit-db.com/exploits/17865/"
+	),
+);
+
+$plugin_vulnerabilities["dmsguestbook"] = array(
+	"1" => array(
+		"FirstVersion" => "1.5.0",
+		"LastVersion" => "1.17.4",
+		"TypeOfVulnerability" => "file modification",
+		"URL" => "http://packetstormsecurity.com/files/129752/WordPress-Dmsguestbook-Unauthenticated-Data-Injection.html"
+	),
+);
+
 $plugin_vulnerabilities["download-manager"] = array(
 	"1" => array(
 		"FirstVersion" => "2.7.0",
