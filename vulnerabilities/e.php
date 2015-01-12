@@ -4,12 +4,12 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
-$plugin_vulnerabilities["wp-error-fix"] = array(
+$plugin_vulnerabilities["email"] = array(
 	"1" => array(
-		"FirstVersion" => "1.0",
-		"LastVersion" => "2.0",
-		"TypeOfVulnerability" => "information disclosure",
-		"URL" => "https://wordpress.org/support/topic/security-logs-folder-does-not-block-access"
+		"FirstVersion" => "0.1",
+		"LastVersion" => "1.1",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://en.1337day.com/exploit/23067"
 	),
 );
 

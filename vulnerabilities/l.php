@@ -22,6 +22,15 @@ $plugin_vulnerabilities["like-dislike-counter-for-posts-pages-and-comments"] = a
 	),
 );
 
+$plugin_vulnerabilities["link-library"] = array(
+	"1" => array(
+		"FirstVersion" => "5.8.3",
+		"LastVersion" => "5.8.10.6",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://security.szurek.pl/link-library-58106-reflected-xss.html"
+	),
+);
+
 $plugin_vulnerabilities["lisl-last-image-slider"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

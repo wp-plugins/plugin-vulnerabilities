@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["banner-effect-header"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.2.6",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129804/WordPress-Banner-Effect-Header-1.2.6-XSS-CSRF.html"
+	),
+);
+
 $plugin_vulnerabilities["bird-feeder"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

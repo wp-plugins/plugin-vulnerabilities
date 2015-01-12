@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["fancy-gallery"] = array(
+	"1" => array(
+		"FirstVersion" => "1.5",
+		"LastVersion" => "1.5.12",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://security.szurek.pl/fancy-gallery-1512-reflected-xss.html"
+	),
+);
+
 $plugin_vulnerabilities["feature-comments"] = array(
 	"1" => array(
 		"FirstVersion" => "1.1",

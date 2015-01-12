@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["watu"] = array(
+	"1" => array(
+		"FirstVersion" => "2.3.6",
+		"LastVersion" => "2.5.0.1",
+		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"URL" => "http://security.szurek.pl/watu-249-xss.html"
+	),
+);
+
 $plugin_vulnerabilities["woocommerce"] = array(
 	"1" => array(
 		"FirstVersion" => "2.1.0",
@@ -79,6 +88,33 @@ $plugin_vulnerabilities["wp-dbmanager"] = array(
 		"LastVersion" => "2.74",
 		"TypeOfVulnerability" => "information disclosure",
 		"URL" => "https://github.com/wpscanteam/wpscan/issues/422"
+	),
+);
+
+$plugin_vulnerabilities["wp-easycart"] = array(
+	"1" => array(
+		"FirstVersion" => "1.1.27",
+		"LastVersion" => "3.0.8",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://security.szurek.pl/wordpress-shopping-cart-304-unrestricted-file-upload.html"
+	),
+);
+
+$plugin_vulnerabilities["wp-email"] = array(
+	"1" => array(
+		"FirstVersion" => "2.30",
+		"LastVersion" => "2.64",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://en.1337day.com/exploit/23066"
+	),
+);
+
+$plugin_vulnerabilities["wp-error-fix"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "2.0",
+		"TypeOfVulnerability" => "information disclosure",
+		"URL" => "https://wordpress.org/support/topic/security-logs-folder-does-not-block-access"
 	),
 );
 

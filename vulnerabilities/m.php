@@ -31,6 +31,15 @@ $plugin_vulnerabilities["mikiurl-wordpress-eklentisi"] = array(
 	),
 );
 
+$plugin_vulnerabilities["mp3-jplayer"] = array(
+	"1" => array(
+		"FirstVersion" => "1.8.3",
+		"LastVersion" => "1.8.11",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://security.szurek.pl/mp3jplayer-1811-reflected-xss.html"
+	),
+);
+
 $plugin_vulnerabilities["mtouch-quiz"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

@@ -31,6 +31,15 @@ $plugin_vulnerabilities["category-list-portfolio-page"] = array(
 	),
 );
 
+$plugin_vulnerabilities["cforms2"] = array(
+	"1" => array(
+		"FirstVersion" => "10.2",
+		"LastVersion" => "14.7",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://1337day.com/exploit/23056"
+	),
+);
+
 $plugin_vulnerabilities["clean-and-simple-contact-form-by-meg-nicholas"] = array(
 	"1" => array(
 		"FirstVersion" => "4.1.3",
