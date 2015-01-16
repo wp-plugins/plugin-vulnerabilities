@@ -80,6 +80,12 @@ $plugin_vulnerabilities["contact-form-7-to-database-extension"] = array(
 		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
 		"URL" => "https://www.htbridge.com/advisory/HTB23233"
 	),
+	"2" => array(
+		"FirstVersion" => "2.7.5",
+		"LastVersion" => "2.8.19",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://security.szurek.pl/contact-form-db-2819-reflected-xss.html"
+	),
 );
 
 $plugin_vulnerabilities["cp-multi-view-calendar"] = array(

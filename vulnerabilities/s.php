@@ -55,6 +55,24 @@ $plugin_vulnerabilities["simple-ip-ban"] = array(
 	),
 );
 
+$plugin_vulnerabilities["simple-security"] = array(
+	"1" => array(
+		"FirstVersion" => "1.1",
+		"LastVersion" => "1.1.5",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://www.htbridge.com/advisory/HTB23244"
+	),
+);
+
+$plugin_vulnerabilities["simple-share-buttons-adder"] = array(
+	"1" => array(
+		"FirstVersion" => "1.9",
+		"LastVersion" => "4.4",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://security.dxw.com/advisories/csrf-and-stored-xss-in-simple-share-buttons-adder/"
+	),
+);
+
 $plugin_vulnerabilities["simple-sticky-footer"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
@@ -124,15 +142,6 @@ $plugin_vulnerabilities["spnbabble"] = array(
 		"LastVersion" => "1.4.1",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129580/WordPress-SPNbabble-1.4.1-CSRF-XSS.html"
-	),
-);
-
-$plugin_vulnerabilities["simple-share-buttons-adder"] = array(
-	"1" => array(
-		"FirstVersion" => "1.9",
-		"LastVersion" => "4.4",
-		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
-		"URL" => "https://security.dxw.com/advisories/csrf-and-stored-xss-in-simple-share-buttons-adder/"
 	),
 );
 

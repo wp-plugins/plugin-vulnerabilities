@@ -20,6 +20,12 @@ $plugin_vulnerabilities["photo-gallery"] = array(
 		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
 		"URL" => "https://www.htbridge.com/advisory/HTB23232"
 	),
+	"2" => array(
+		"FirstVersion" => "1.1.12",
+		"LastVersion" => "1.2.7",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "http://seclists.org/fulldisclosure/2015/Jan/36"
+	),
 );
 
 $plugin_vulnerabilities["pica-photo-gallery"] = array(
@@ -67,6 +73,27 @@ $plugin_vulnerabilities["plugin-newsletter"] = array(
 		"LastVersion" => "1.5",
 		"TypeOfVulnerability" => "arbitrary file viewing",
 		"URL" => "http://www.exploit-db.com/exploits/19018/"
+	),
+);
+
+$plugin_vulnerabilities["pods"] = array(
+	"1" => array(
+		"FirstVersion" => "2.3.10",
+		"LastVersion" => "2.5",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/129890/WordPress-Pods-2.4.3-CSRF-Cross-Site-Scripting.html"
+	),
+	"2" => array(
+		"FirstVersion" => "2.0",
+		"LastVersion" => "2.4.3",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
+		"URL" => "http://packetstormsecurity.com/files/129890/WordPress-Pods-2.4.3-CSRF-Cross-Site-Scripting.html"
+	),
+	"3" => array(
+		"FirstVersion" => "2.0",
+		"LastVersion" => "2.4.1",
+		"TypeOfVulnerability" => "user creation",
+		"URL" => "http://pods.io/2014/06/23/full-details-pods-2-x-security-vulnerability-patched-pods-2-4-2/"
 	),
 );
 

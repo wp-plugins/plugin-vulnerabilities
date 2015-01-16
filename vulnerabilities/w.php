@@ -279,7 +279,7 @@ $plugin_vulnerabilities["wpcommenttwit"] = array(
 		"FirstVersion" => "0.1",
 		"LastVersion" => "0.5",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
-		"URL" => "http://packetstormsecurity.com/files/129579/WordPress-twitterDash-2.1-CSRF-XSS.html"
+		"URL" => "http://packetstormsecurity.com/files/129581/WordPress-wpCommentTwit-0.5-CSRF-XSS.html"
 	),
 );
 
