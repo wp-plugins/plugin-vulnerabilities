@@ -52,6 +52,24 @@ $plugin_vulnerabilities["pictobrowser-gallery"] = array(
 	),
 );
 
+$plugin_vulnerabilities["pie-register"] = array(
+	"1" => array(
+		"FirstVersion" => "2.0.6",
+		"LastVersion" => "2.0.13",
+		"TypeOfVulnerability" => "privilege escalation",
+		"URL" => "http://security.szurek.pl/pie-register-2013-privilege-escalation.html"
+	),
+);
+
+$plugin_vulnerabilities["pixabay-images"] = array(
+	"1" => array(
+		"FirstVersion" => "2.0",
+		"LastVersion" => "2.3",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://packetstormsecurity.com/files/130017/WordPress-Pixarbay-Images-2.3-XSS-Bypass-Upload-Traversal.html"
+	),
+);
+
 $plugin_vulnerabilities["player"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
@@ -79,7 +97,7 @@ $plugin_vulnerabilities["plugin-newsletter"] = array(
 $plugin_vulnerabilities["pods"] = array(
 	"1" => array(
 		"FirstVersion" => "2.3.10",
-		"LastVersion" => "2.5",
+		"LastVersion" => "2.5.1.1",
 		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129890/WordPress-Pods-2.4.3-CSRF-Cross-Site-Scripting.html"
 	),
@@ -92,7 +110,7 @@ $plugin_vulnerabilities["pods"] = array(
 	"3" => array(
 		"FirstVersion" => "2.0",
 		"LastVersion" => "2.4.1",
-		"TypeOfVulnerability" => "user creation",
+		"TypeOfVulnerability" => "privilege escalation",
 		"URL" => "http://pods.io/2014/06/23/full-details-pods-2-x-security-vulnerability-patched-pods-2-4-2/"
 	),
 );

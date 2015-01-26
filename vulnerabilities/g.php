@@ -40,6 +40,15 @@ $plugin_vulnerabilities["google-document-embedder"] = array(
 	),
 );
 
+$plugin_vulnerabilities["google-mp3-audio-player"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.9",
+		"LastVersion" => "1.0.11",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://www.exploit-db.com/exploits/35460/"
+	),
+);
+
 $plugin_vulnerabilities["gslideshow"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",

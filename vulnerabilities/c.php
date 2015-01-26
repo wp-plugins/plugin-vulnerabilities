@@ -40,6 +40,15 @@ $plugin_vulnerabilities["cforms2"] = array(
 	),
 );
 
+$plugin_vulnerabilities["cip4-folder-download-widget"] = array(
+	"1" => array(
+		"FirstVersion" => "1.4",
+		"LastVersion" => "1.10",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://packetstormsecurity.com/files/130009/WordPress-CIP4-Folder-Download-1.10-Local-File-Inclusion.html"
+	),
+);
+
 $plugin_vulnerabilities["clean-and-simple-contact-form-by-meg-nicholas"] = array(
 	"1" => array(
 		"FirstVersion" => "4.1.3",
