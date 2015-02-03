@@ -26,6 +26,24 @@ $plugin_vulnerabilities["photo-gallery"] = array(
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://seclists.org/fulldisclosure/2015/Jan/36"
 	),
+	"3" => array(
+		"FirstVersion" => "1.0.1",
+		"LastVersion" => "1.2.8",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/130149/WordPress-Photo-Gallery-1.2.8-Cross-Site-Scripting.html"
+	),
+	"4" => array(
+		"FirstVersion" => "1.1.12",
+		"LastVersion" => "1.2.5",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://security.szurek.pl/photo-gallery-125-unrestricted-file-upload.html"
+	),
+	"5" => array(
+		"FirstVersion" => "1.0.1",
+		"LastVersion" => "1.2.5",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "http://packetstormsecurity.com/files/130148/WordPress-Photo-Gallery-1.2.8-SQL-Injection.html"
+	),
 );
 
 $plugin_vulnerabilities["pica-photo-gallery"] = array(

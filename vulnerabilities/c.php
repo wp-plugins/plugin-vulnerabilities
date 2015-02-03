@@ -97,6 +97,33 @@ $plugin_vulnerabilities["contact-form-7-to-database-extension"] = array(
 	),
 );
 
+$plugin_vulnerabilities["contact-form-maker"] = array(
+	"1" => array(
+		"FirstVersion" => "1.7.10",
+		"LastVersion" => "1.7.18",
+		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"URL" => "http://security.szurek.pl/contact-form-maker-1718-xss.html"
+	),
+);
+
+$plugin_vulnerabilities["contact-form-to-email"] = array(
+	"1" => array(
+		"FirstVersion" => "1.01",
+		"LastVersion" => "1.01",
+		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"URL" => "http://security.szurek.pl/contact-form-to-email-101-xss.html"
+	),
+);
+
+$plugin_vulnerabilities["contus-video-gallery"] = array(
+	"1" => array(
+		"FirstVersion" => "2.2",
+		"LastVersion" => "2.3",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://en.1337day.com/exploit/23207"
+	),
+);
+
 $plugin_vulnerabilities["cp-multi-view-calendar"] = array(
 	"1" => array(
 		"FirstVersion" => "1.01",

@@ -13,6 +13,15 @@ $plugin_vulnerabilities["gd-star-rating"] = array(
 	),
 );
 
+$plugin_vulnerabilities["geo-mashup"] = array(
+	"1" => array(
+		"FirstVersion" => "1.5",
+		"LastVersion" => "1.8.2",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/130150/WordPress-Geo-Mashup-1.8.2-Cross-Site-Scripting.html"
+	),
+);
+
 $plugin_vulnerabilities["google-analytics-mu"] = array(
 	"1" => array(
 		"FirstVersion" => "2.0",
