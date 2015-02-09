@@ -65,7 +65,7 @@ $plugin_vulnerabilities["pictobrowser-gallery"] = array(
 	"1" => array(
 		"FirstVersion" => "0.2 ",
 		"LastVersion" => "0.3.1",
-		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129638/WordPress-PictoBrowser-0.3.1-CSRF-XSS.html"
 	),
 );
@@ -146,16 +146,26 @@ $plugin_vulnerabilities["post-to-twitter"] = array(
 	"1" => array(
 		"FirstVersion" => "0.6",
 		"LastVersion" => "0.8",
-		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129639/WordPress-Twitter-0.7-CSRF-XSS.html"
 	),
 );
+
+$plugin_vulnerabilities["powerpress"] = array(
+	"1" => array(
+		"FirstVersion" => "0.8.0",
+		"LastVersion" => "6.0",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://www.netsparker.com/cve-2015-1385-xss-vulnerability-in-blubrry-powerpress/"
+	),
+);
+
 
 $plugin_vulnerabilities["pwgrandom"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.11",
-		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129640/WordPress-PWG-Random-1.11-CSRF-XSS.html"
 	),
 );

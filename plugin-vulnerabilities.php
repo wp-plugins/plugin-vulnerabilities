@@ -3,7 +3,7 @@
 Plugin Name: Plugin Vulnerabilities
 Plugin URI: https://www.whitefirdesign.com/plugin-vulnerabilities
 Description: Alerts when installed plugins contain known security vulnerabilities. Also lists vulnerabilities that exist in other versions of installed plugins.
-Version: 1.0.10
+Version: 1.0.11
 Author: White Fir Design
 Author URI: https://www.whitefirdesign.com/
 License: GPLv2
@@ -139,5 +139,6 @@ function plugin_vulnerabilities_page() {
 	}
 	else 
 		echo "<h3>".__('No installed plugins have known vulnerabilities in other versions.', 'plugin-vulnerabilities')."</h3>";
+	echo '<br><br><br>If your website has been hacked we can help you to <a href="https://www.whitefirdesign.com/services/hacked-wordpress-website-cleanup.html">clean and secure the website</a>.';
 	echo '</div>';
 }

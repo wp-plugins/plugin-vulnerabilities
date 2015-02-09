@@ -11,6 +11,12 @@ $plugin_vulnerabilities["banner-effect-header"] = array(
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129804/WordPress-Banner-Effect-Header-1.2.6-XSS-CSRF.html"
 	),
+	"2" => array(
+		"FirstVersion" => "1.2.0",
+		"LastVersion" => "1.2.7",
+		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"URL" => "https://www.netsparker.com/cve-2015-1384-xss-vulnerability-in-banner-effect-header/"
+	),
 );
 
 $plugin_vulnerabilities["bird-feeder"] = array(

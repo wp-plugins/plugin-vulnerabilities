@@ -95,7 +95,7 @@ $plugin_vulnerabilities["simpleflickr"] = array(
 	"1" => array(
 		"FirstVersion" => "1.1",
 		"LastVersion" => "3.3",
-		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129642/WordPress-SimpleFlickr-3.0.3-CSRF-XSS.html"
 	),
 );
@@ -104,7 +104,7 @@ $plugin_vulnerabilities["simplelife"] = array(
 	"1" => array(
 		"FirstVersion" => "1.2",
 		"LastVersion" => "1.2",
-		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129641/WordPress-Simplelife-1.2-CSRF-XSS.html"
 	),
 );
@@ -124,6 +124,15 @@ $plugin_vulnerabilities["sliding-social-icons"] = array(
 		"LastVersion" => "1.61",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129509/WordPress-Sliding-Social-Icons-1.61-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["smart-forms"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1",
+		"LastVersion" => "2.1.0",
+		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"URL" => "http://security.szurek.pl/wordpress-smart-forms-210-xss.html"
 	),
 );
 

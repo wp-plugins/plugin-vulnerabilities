@@ -13,6 +13,15 @@ $plugin_vulnerabilities["fancy-gallery"] = array(
 	),
 );
 
+$plugin_vulnerabilities["fancybox-for-wordpress"] = array(
+	"1" => array(
+		"FirstVersion" => "3.0",
+		"LastVersion" => "3.0.2",
+		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"URL" => "https://wordpress.org/support/topic/possible-malware-2"
+	),
+);
+
 $plugin_vulnerabilities["feature-comments"] = array(
 	"1" => array(
 		"FirstVersion" => "1.1",

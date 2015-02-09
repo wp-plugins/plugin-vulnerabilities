@@ -26,7 +26,7 @@ $plugin_vulnerabilities["tweetscribe"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.1",
-		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129645/WordPress-TweetScribe-1.1-CSRF-XSS.html"
 	),
 );
@@ -35,7 +35,7 @@ $plugin_vulnerabilities["twimp-wp"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",
 		"LastVersion" => "0.1",
-		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129643/WordPress-twimp-wp-Cross-Site-Request-Forgery-Cross-Site-Scripting.html"
 	),
 );
@@ -54,7 +54,7 @@ $plugin_vulnerabilities["twitter-liveblog"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.1.2",
-		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129644/WordPress-Twitter-LiveBlog-1.1.2-CSRF-XSS.html"
 	),
 );

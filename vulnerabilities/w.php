@@ -158,7 +158,7 @@ $plugin_vulnerabilities["wp-limit-posts-automatically"] = array(
 	"1" => array(
 		"FirstVersion" => "0.7",
 		"LastVersion" => "0.7",
-		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129647/WordPress-WP-Limit-Posts-Automatically-0.7-CSRF-XSS.html"
 	),
 );
