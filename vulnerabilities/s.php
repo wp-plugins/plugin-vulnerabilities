@@ -145,6 +145,15 @@ $plugin_vulnerabilities["sp-client-document-manager"] = array(
 	),
 );
 
+$plugin_vulnerabilities["spider-facebook"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0.10",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/130318/WordPress-Spider-Facebook-1.0.10-Cross-Site-Scripting.html"
+	),
+);
+
 $plugin_vulnerabilities["spnbabble"] = array(
 	"1" => array(
 		"FirstVersion" => "1.1",

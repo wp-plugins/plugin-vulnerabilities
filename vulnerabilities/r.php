@@ -13,6 +13,15 @@ $plugin_vulnerabilities["really-easy-slider"] = array(
 	),
 );
 
+$plugin_vulnerabilities["redirection-page"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.2",
+		"LastVersion" => "1.0.2",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/130314/WordPress-Redirection-Page-1.2-CSRF-XSS.html"
+	),
+);
+
 $plugin_vulnerabilities["rent-a-car"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

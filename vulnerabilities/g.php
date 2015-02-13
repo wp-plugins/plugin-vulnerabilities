@@ -47,6 +47,12 @@ $plugin_vulnerabilities["google-document-embedder"] = array(
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://security.szurek.pl/google-doc-embedder-2514-sql-injection.html"
 	),
+	"2" => array(
+		"FirstVersion" => "2.5",
+		"LastVersion" => "2.5.18",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/130309/WordPress-Google-Doc-Embedder-2.5.18-Cross-Site-Scripting.html"
+	),
 );
 
 $plugin_vulnerabilities["google-mp3-audio-player"] = array(

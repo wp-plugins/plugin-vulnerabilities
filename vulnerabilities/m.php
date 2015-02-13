@@ -31,6 +31,15 @@ $plugin_vulnerabilities["mikiurl-wordpress-eklentisi"] = array(
 	),
 );
 
+$plugin_vulnerabilities["mobile-domain"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.5.2",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/130316/WordPress-Mobile-Domain-1.5.2-Cross-Site-Request-Forgery-Cross-Site-Scripting.html"
+	),
+);
+
 $plugin_vulnerabilities["mp3-jplayer"] = array(
 	"1" => array(
 		"FirstVersion" => "1.8.3",

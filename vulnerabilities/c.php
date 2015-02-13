@@ -15,10 +15,16 @@ $plugin_vulnerabilities["cardoza-facebook-like-box"] = array(
 
 $plugin_vulnerabilities["cart66-lite"] = array(
 	"1" => array(
-		"FirstVersion" => "1.4.0",
+		"FirstVersion" => "1.4",
 		"LastVersion" => "1.5.1.17",
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://security.szurek.pl/cart66-lite-wordpress-ecommerce-15117-blind-sql-injection.html"
+	),
+	"2" => array(
+		"FirstVersion" => "1.4",
+		"LastVersion" => "1.5.4",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/130307/WordPress-Cart66-Lite-1.5.4-Cross-Site-Scripting.html"
 	),
 );
 
@@ -95,6 +101,12 @@ $plugin_vulnerabilities["contact-form-7-to-database-extension"] = array(
 		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
 		"URL" => "http://security.szurek.pl/contact-form-db-2819-reflected-xss.html"
 	),
+	"3" => array(
+		"FirstVersion" => "2.8.9",
+		"LastVersion" => "2.8.27",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/130311/WordPress-Contact-Form-DB-2.8.26-Cross-Site-Scripting.html"
+	),
 );
 
 $plugin_vulnerabilities["contact-form-maker"] = array(
@@ -130,5 +142,14 @@ $plugin_vulnerabilities["cp-multi-view-calendar"] = array(
 		"LastVersion" => "1.01",
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://www.homelab.it/index.php/2014/10/23/wordpress-cp-multi-view-event-calendar-1-01-sql-injection/"
+	),
+);
+
+$plugin_vulnerabilities["crossslide-jquery-plugin-for-wordpress"] = array(
+	"1" => array(
+		"FirstVersion" => "1.1.0",
+		"LastVersion" => "2.0.5",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/130313/WordPress-Cross-Slide-2.0.5-Cross-Site-Request-Forgery-Cross-Site-Scripting.html"
 	),
 );

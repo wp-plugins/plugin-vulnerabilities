@@ -238,6 +238,15 @@ $plugin_vulnerabilities["wp-support-plus-responsive-ticket-system"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wp-survey-and-poll"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.1.9",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "http://www.exploit-db.com/exploits/36054/"
+	),
+);
+
 $plugin_vulnerabilities["wp-symposium"] = array(
 	"1" => array(
 		"FirstVersion" => "13.04",
