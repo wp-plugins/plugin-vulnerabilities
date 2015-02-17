@@ -4,6 +4,21 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["gallery-bank"] = array(
+	"1" => array(
+		"FirstVersion" => "3.0.0",
+		"LastVersion" => "3.0.34",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://cxsecurity.com/issue/WLB-2014100159"
+	),
+	"2" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "2.0.26",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://www.securityfocus.com/archive/1/529637"
+	),
+);
+
 $plugin_vulnerabilities["gd-star-rating"] = array(
 	"1" => array(
 		"FirstVersion" => "0.9.0",

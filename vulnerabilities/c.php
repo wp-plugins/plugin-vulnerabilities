@@ -134,6 +134,12 @@ $plugin_vulnerabilities["contus-video-gallery"] = array(
 		"TypeOfVulnerability" => "arbitrary file viewing",
 		"URL" => "http://en.1337day.com/exploit/23207"
 	),
+	"2" => array(
+		"FirstVersion" => "2.7",
+		"LastVersion" => "2.7",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "http://www.homelab.it/index.php/2015/02/11/wordpress-video-gallery-2-7-sql-injection/"
+	),
 );
 
 $plugin_vulnerabilities["cp-multi-view-calendar"] = array(

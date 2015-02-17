@@ -29,4 +29,10 @@ $plugin_vulnerabilities["ninja-forms"] = array(
 		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
 		"URL" => "http://security.szurek.pl/ninja-forms-286-reflected-xss.html"
 	),
+	"2" => array(
+		"FirstVersion" => "2.8",
+		"LastVersion" => "2.8.8",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/130369/WordPress-Ninja-Forms-2.8.8-Cross-Site-Scripting.html"
+	),
 );

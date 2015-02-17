@@ -13,6 +13,15 @@ $plugin_vulnerabilities["acobot"] = array(
 	),
 );
 
+$plugin_vulnerabilities["advanced-custom-fields"] = array(
+	"1" => array(
+		"FirstVersion" => "3.5.0",
+		"LastVersion" => "3.5.1",
+		"TypeOfVulnerability" => "remote file inclusion (LFI)",
+		"URL" => "http://ceriksen.com/2012/11/14/wordpress-advanced-custom-fields-remote-file-inclusion-vulnerability/"
+	),
+);
+
 $plugin_vulnerabilities["ajax-pagination"] = array(
 	"1" => array(
 		"FirstVersion" => "1.1",
