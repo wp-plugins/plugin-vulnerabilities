@@ -36,3 +36,12 @@ $plugin_vulnerabilities["xcloner-backup-and-restore"] = array(
 		"URL" => "http://security.szurek.pl/xcloner-backup-and-restore-311-backup-download.html"
 	),
 );
+
+$plugin_vulnerabilities["xerte-online"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1",
+		"LastVersion" => "0.3.2",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-xerte-online-arbitrary-file-upload-vulnerability.html"
+	),
+);

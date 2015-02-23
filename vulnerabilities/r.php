@@ -22,6 +22,15 @@ $plugin_vulnerabilities["redirection-page"] = array(
 	),
 );
 
+$plugin_vulnerabilities["reflex-gallery"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "3.0",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-reflex-gallery-arbitrary-file-upload-vulnerability.html"
+	),
+);
+
 $plugin_vulnerabilities["rent-a-car"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

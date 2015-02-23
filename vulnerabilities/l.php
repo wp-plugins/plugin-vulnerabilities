@@ -4,6 +4,21 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["levelfourstorefront"] = array(
+	"1" => array(
+		"FirstVersion" => "2.0",
+		"LastVersion" => "8.1.14",
+		"TypeOfVulnerability" => "backup download",
+		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-wordpress-shopping-cart-multiple-vulnerability.html"
+	),
+	"2" => array(
+		"FirstVersion" => "2.0",
+		"LastVersion" => "8.1.14",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-wordpress-shopping-cart-multiple-vulnerability.html"
+	),
+);
+
 $plugin_vulnerabilities["lightbox-photo-gallery"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

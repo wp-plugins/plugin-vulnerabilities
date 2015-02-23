@@ -93,3 +93,12 @@ $plugin_vulnerabilities["duplicate-post"] = array(
 		"URL" => "https://security.dxw.com/advisories/xss-in-duplicate-post-2-4-1/"
 	),
 );
+
+$plugin_vulnerabilities["duplicator"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1",
+		"LastVersion" => "0.5.8",
+		"TypeOfVulnerability" => "backup download",
+		"URL" => "http://security.szurek.pl/duplicator-058-privilege-escalation.html"
+	),
+);
