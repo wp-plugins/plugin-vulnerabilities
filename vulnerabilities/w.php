@@ -20,6 +20,12 @@ $plugin_vulnerabilities["woocommerce"] = array(
 		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
 		"URL" => "https://security.dxw.com/advisories/reflected-xss-in-woocommerce-excelling-ecommerce-allows-attackers-ability-to-do-almost-anything-an-admin-user-can-do/"
 	),
+	"2" => array(
+	"FirstVersion" => "2.0.0",
+	"LastVersion" => "2.2.10",
+	"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+	"URL" => "http://packetstormsecurity.com/files/130458/WordPress-WooCommerce-2.2.10-Cross-Site-Scripting.html"
+	),
 );
 
 $plugin_vulnerabilities["woopra"] = array(
@@ -37,6 +43,12 @@ $plugin_vulnerabilities["wordfence"] = array(
 		"LastVersion" => "5.1.2",
 		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
 		"URL" => "http://en.1337day.com/exploit/22819"
+	),
+	"2" => array(
+		"FirstVersion" => "1.1",
+		"LastVersion" => "5.2.2",
+		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"URL" => "https://vexatioustendencies.com/wordpress-plugin-vulnerability-dump-part-2/"
 	),
 );
 
@@ -172,6 +184,15 @@ $plugin_vulnerabilities["wp-marketplace"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wp-media-cleaner"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "2.2.6",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/130576/WordPress-Media-Cleaner-2.2.6-Cross-Site-Scripting.html"
+	),
+);
+
 $plugin_vulnerabilities["wp-photo-album-plus"] = array(
 	"1" => array(
 		"FirstVersion" => "2.4.3",
@@ -187,6 +208,15 @@ $plugin_vulnerabilities["wp-rss-aggregator"] = array(
 		"LastVersion" => "4.6.3",
 		"TypeOfVulnerability" => "post deletion",
 		"URL" => "http://security.szurek.pl/wp-rss-aggregator-463-post-deletion.html"
+	),
+);
+
+$plugin_vulnerabilities["wp-rss-multi-importer"] = array(
+	"1" => array(
+		"FirstVersion" => "3.00.00",
+		"LastVersion" => "3.13",
+		"TypeOfVulnerability" => "cross-site request forgery",
+		"URL" => "https://vexatioustendencies.com/wordpress-plugin-vulnerability-dump-part-1/"
 	),
 );
 

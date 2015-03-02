@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["ready-ecommerce"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1.2",
+		"LastVersion" => "0.6.0",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://vexatioustendencies.com/wordpress-plugin-vulnerability-dump-part-1/"
+	),
+);
+
 $plugin_vulnerabilities["really-easy-slider"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",

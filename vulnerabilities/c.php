@@ -88,6 +88,15 @@ $plugin_vulnerabilities["codecanyon-3958969-wpdatatables-responsive-tables-in-wo
 	),
 );
 
+$plugin_vulnerabilities["coming-soon-maintenance-mode-ready"] = array(
+	"1" => array(
+		"FirstVersion" => "0.4.9",
+		"LastVersion" => "0.5.1",
+		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"URL" => "https://vexatioustendencies.com/wordpress-plugin-vulnerability-dump-part-1/"
+	),
+);
+
 $plugin_vulnerabilities["contact-form-7-to-database-extension"] = array(
 	"1" => array(
 		"FirstVersion" => "2.7.2",

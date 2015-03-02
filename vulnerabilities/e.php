@@ -4,6 +4,24 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["easy-media-gallery"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.3.01",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://vexatioustendencies.com/wordpress-plugin-vulnerability-dump-part-1/"
+	),
+);
+
+$plugin_vulnerabilities["easy-social-icons"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.2.2",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/130461/WordPress-Easy-Social-Icons-1.2.2-CSRF-XSS.html"
+	),
+);
+
 $plugin_vulnerabilities["easing-slider"] = array(
 	"1" => array(
 		"FirstVersion" => "2.2",

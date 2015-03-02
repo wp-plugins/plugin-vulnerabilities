@@ -70,6 +70,15 @@ $plugin_vulnerabilities["google-document-embedder"] = array(
 	),
 );
 
+$plugin_vulnerabilities["google-maps-ready"] = array(
+	"1" => array(
+		"FirstVersion" => "0.4.2",
+		"LastVersion" => "0.1.9",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://vexatioustendencies.com/wordpress-plugin-vulnerability-dump-part-1/"
+	),
+);
+
 $plugin_vulnerabilities["google-mp3-audio-player"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.9",

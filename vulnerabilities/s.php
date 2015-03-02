@@ -109,6 +109,16 @@ $plugin_vulnerabilities["simplelife"] = array(
 	),
 );
 
+$plugin_vulnerabilities["siteorigin-panels"] = array(
+	"1" => array(
+		"FirstVersion" => "2.0",
+		"LastVersion" => "2.0.4",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://security.szurek.pl/page-builder-by-siteorigin-203-reflected-xss.html"
+	),
+);
+
+
 $plugin_vulnerabilities["sliding-recent-posts"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.0",
@@ -142,6 +152,15 @@ $plugin_vulnerabilities["sp-client-document-manager"] = array(
 		"LastVersion" => "2.4.3",
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://packetstormsecurity.com/files/129212/WordPress-SP-Client-Document-Manager-2.4.1-SQL-Injection.html"
+	),
+);
+
+$plugin_vulnerabilities["spider-event-calendar"] = array(
+	"1" => array(
+		"FirstVersion" => "1.4",
+		"LastVersion" => "1.4.9",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "http://www.exploit-db.com/exploits/36061/"
 	),
 );
 
