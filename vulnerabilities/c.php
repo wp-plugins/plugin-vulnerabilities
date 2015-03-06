@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["calculated-fields-form"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.1",
+		"LastVersion" => "1.0.10",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/SQL injection",
+		"URL" => "http://packetstormsecurity.com/files/130603/WordPress-Calculated-Fields-Form-1.0.10-SQL-Injection.html"
+	),
+);
+
 $plugin_vulnerabilities["cardoza-facebook-like-box"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
@@ -115,6 +124,12 @@ $plugin_vulnerabilities["contact-form-7-to-database-extension"] = array(
 		"LastVersion" => "2.8.27",
 		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/130311/WordPress-Contact-Form-DB-2.8.26-Cross-Site-Scripting.html"
+	),
+	"4" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "2.8.31",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
+		"URL" => "https://security.dxw.com/advisories/csrf-in-contact-form-db-allows-attacker-to-delete-all-stored-form-submissions/"
 	),
 );
 

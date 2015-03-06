@@ -31,6 +31,15 @@ $plugin_vulnerabilities["infusionsoft"] = array(
 	),
 );
 
+$plugin_vulnerabilities["invit0r"] = array(
+	"1" => array(
+		"FirstVersion" => "0.2",
+		"LastVersion" => "0.22",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-invit0r-arbitrary-file-upload-vulnerability.html"
+	),
+);
+
 $plugin_vulnerabilities["is-human"] = array(
 	"1" => array(
 		"FirstVersion" => "1.3.3",

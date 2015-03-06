@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["w3-total-cache"] = array(
+	"1" => array(
+		"FirstVersion" => "0.9.4",
+		"LastVersion" => "0.9.4",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
+		"URL" => "https://vexatioustendencies.com/wordpress-plugin-vulnerability-dump-part-2/"
+	),
+);
+
 $plugin_vulnerabilities["watu"] = array(
 	"1" => array(
 		"FirstVersion" => "2.3.6",
@@ -52,12 +61,30 @@ $plugin_vulnerabilities["wordfence"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wordpress-backup-to-dropbox"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "4.0",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://security.szurek.pl/wordpress-backup-to-dropbox-40-reflected-xss.html"
+	),
+);
+
 $plugin_vulnerabilities["wordpress-mobile-pack"] = array(
 	"1" => array(
 		"FirstVersion" => "2.0",
 		"LastVersion" => "2.0.1",
 		"TypeOfVulnerability" => "information disclosure",
 		"URL" => "https://security.dxw.com/advisories/information-disclosure-vulnerability-in-wordpress-mobile-pack-allows-anybody-to-read-password-protected-posts/"
+	),
+);
+
+$plugin_vulnerabilities["wp-all-import"] = array(
+	"1" => array(
+		"FirstVersion" => "3.0",
+		"LastVersion" => "3.2.3",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.pritect.net/blog/wp-all-import-3-2-3-pro-4-0-3-vulnerability-breakdown"
 	),
 );
 
@@ -73,6 +100,15 @@ $plugin_vulnerabilities["wp-backitup"] = array(
 		"LastVersion" => "1.9",
 		"TypeOfVulnerability" => "information disclosure",
 		"URL" => "http://security.szurek.pl/wp-backitup-19-disclosure-of-potentially-sensitive-information.html"
+	),
+);
+
+$plugin_vulnerabilities["wp-business-intelligence-lite"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0.7",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://packetstormsecurity.com/files/125927/"
 	),
 );
 
@@ -226,6 +262,15 @@ $plugin_vulnerabilities["wp-security-scan"] = array(
 		"LastVersion" => "4.0.4",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
 		"URL" => "http://packetstormsecurity.com/files/125218/WordPress-Acunetix-WP-Security-Make-Backup-4.0.3-CSRF.html"
+	),
+);
+
+$plugin_vulnerabilities["wp-seo-spy-google"] = array(
+	"1" => array(
+		"FirstVersion" => "3.0",
+		"LastVersion" => "3.1",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://1337day.com/exploit/21404"
 	),
 );
 

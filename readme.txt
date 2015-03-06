@@ -13,7 +13,7 @@ Alerts when installed plugins contain known security vulnerabilities. Also lists
 
 This plugin checks the plugins you have installed against a list of verified security vulnerabilities. If the installed version of a plugin is vulnerable an alert is added to the Installed Plugins page, otherwise details of the vulnerabilities are included on the Plugin Vulnerabilities page.
 
-This plugin is most important use is to protect against website being hacked, but it is also helpful when working to determine how a website was hacked during the cleanup process of the hacked website. If your website has been hacked we can [help you to clean and secure it](https://www.whitefirdesign.com/services/hacked-wordpress-website-cleanup.html).
+This plugin is most important use is to protect against website being hacked, but it is also helpful when working to determine how a website was hacked during the cleanup process of the hacked website. If your website has been hacked we can [help you to clean and secure it](https://www.whitefirdesign.com/services/hacked-wordpress-website-cleanup.html?pk_campaign=Plugin-Vulnerabilities).
 
 Because we verify each vulnerability before including it not all known vulnerabilities are included, but we are increasing the number of included vulnerabilities on a regular basis.
 
@@ -54,6 +54,9 @@ If you want to let us know of a missing vulnerability or if we need to correct s
 2. Full Listing of Vulnerabilities That Have Existed in Installed Plugins
 
 == Changelog ==
+
+= 1.0.16 =
+* Added 9 vulnerabilities
 
 = 1.0.15 =
 * Added 11 vulnerabilities

@@ -56,6 +56,12 @@ $plugin_vulnerabilities["download-manager"] = array(
 		"TypeOfVulnerability" => "remote code execution",
 		"URL" => "http://www.homelab.it/index.php/2014/12/13/wordpress-download-manager-rce/"
 	),
+	"2" => array(
+		"FirstVersion" => "2.7.0",
+		"LastVersion" => "2.7.4",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://packetstormsecurity.com/files/129536/Wordpress-Download-Manager-download-manager-Unauthenticated-File-Upload.html"
+	),
 );
 
 $plugin_vulnerabilities["download-shortcode"] = array(
