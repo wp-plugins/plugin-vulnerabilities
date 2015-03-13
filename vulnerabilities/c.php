@@ -173,6 +173,12 @@ $plugin_vulnerabilities["cp-multi-view-calendar"] = array(
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://www.homelab.it/index.php/2014/10/23/wordpress-cp-multi-view-event-calendar-1-01-sql-injection/"
 	),
+	"2" => array(
+		"FirstVersion" => "1.01",
+		"LastVersion" => "1.1.5",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://www.milw00rm.com/exploits/7740"
+	),
 );
 
 $plugin_vulnerabilities["crossslide-jquery-plugin-for-wordpress"] = array(

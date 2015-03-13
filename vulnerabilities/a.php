@@ -13,11 +13,20 @@ $plugin_vulnerabilities["acobot"] = array(
 	),
 );
 
+$plugin_vulnerabilities["ad-minister"] = array(
+	"1" => array(
+		"FirstVersion" => "0.5",
+		"LastVersion" => "0.6",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://www.htbridge.com/advisory/HTB23187"
+	),
+);
+
 $plugin_vulnerabilities["advanced-custom-fields"] = array(
 	"1" => array(
 		"FirstVersion" => "3.5.0",
 		"LastVersion" => "3.5.1",
-		"TypeOfVulnerability" => "remote file inclusion (LFI)",
+		"TypeOfVulnerability" => "remote file inclusion (RFI)",
 		"URL" => "http://ceriksen.com/2012/11/14/wordpress-advanced-custom-fields-remote-file-inclusion-vulnerability/"
 	),
 );

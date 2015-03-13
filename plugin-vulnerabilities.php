@@ -3,7 +3,7 @@
 Plugin Name: Plugin Vulnerabilities
 Plugin URI: https://www.whitefirdesign.com/plugin-vulnerabilities
 Description: Alerts when installed plugins contain known security vulnerabilities. Also lists vulnerabilities that exist in other versions of installed plugins.
-Version: 1.0.16
+Version: 1.0.17
 Author: White Fir Design
 Author URI: https://www.whitefirdesign.com/
 License: GPLv2
@@ -81,6 +81,17 @@ function plugin_vulnerabilities_add_plugin_row ( $plugin_file, $plugin_data, $st
 }
 
 function plugin_vulnerabilities_page() {
+	
+	//Store submitted data
+	if ( ($_SERVER['REQUEST_METHOD'] === 'POST') && wp_verify_nonce($_POST['plugin_vulnerabilities'],'plugin_vulnerabilities') ) {
+		if ( isset( $_POST['email-alerts'] ) ) {
+			update_option( 'plugin_vulnerabilities_email_alerts', $_POST['email-alerts'] );
+			if ($_POST['email-alerts']=="Enabled")
+				wp_schedule_event( time(), 'hourly', 'plugin_vulnerabilities_hourly_cron' );
+			else if ($_POST['email-alerts']=="Disabled")
+				wp_clear_scheduled_hook( 'plugin_vulnerabilities_hourly_cron' );
+		}
+	}
 
 	//Load vulnerabilities
 	$plugin_vulnerabilities = array();
@@ -139,6 +150,107 @@ function plugin_vulnerabilities_page() {
 	}
 	else 
 		echo "<h3>".__('No installed plugins have known vulnerabilities in other versions.', 'plugin-vulnerabilities')."</h3>";
+
 	echo '<br><br><br>If your website has been hacked we can help you to <a href="https://www.whitefirdesign.com/services/hacked-wordpress-website-cleanup.html?pk_campaign=Plugin-Vulnerabilities">clean and secure the website</a>.';
+	
+	echo '<br><br><br><br><br><br><hr><form  action="plugins.php?page=plugin-vulnerabilities" method="post">';
+	
+	echo '<table class="form-table">';
+	echo '<tr valign="top">';
+	echo '<th scope="row"><label for="email-alerts">'.__('Send Email Alerts For Vulnerabilities in Installed Versions of Plugins', 'automatic-plugin-updates' ).'</label></th>';
+	echo '<td><fieldset>';
+	echo '<select name="email-alerts"><option value="Disabled">';
+	echo __('Disabled', 'automatic-plugin-updates' );
+	echo '</option><option value="Enabled"';
+	if ( get_option('plugin_vulnerabilities_email_alerts') && (get_option('plugin_vulnerabilities_email_alerts')=='Enabled') )
+		echo 'selected';
+	echo '>';
+	echo __('Enabled', 'automatic-plugin-updates' );
+	echo '</option></select>';
+	echo '</fieldset></td>';
+	echo '</tr>';
+	echo '</table>';
+
+	
+	wp_nonce_field('plugin_vulnerabilities','plugin_vulnerabilities');
+	echo '<p class="submit"><input type="submit" name="submit" id="submit" class="button button-primary" value="Save Changes"  /></p>';
+	echo '</form> ';
+	
 	echo '</div>';
+}
+
+//Handle activation
+register_activation_hook( __FILE__, 'plugin_vulnerabilities_activation' );
+function plugin_vulnerabilities_activation() {
+	if ( get_option('plugin_vulnerabilities_email_alerts') && (get_option('plugin_vulnerabilities_email_alerts')=='Enabled') )
+		wp_schedule_event( time(), 'hourly', 'plugin_vulnerabilities_hourly_cron' );
+}
+
+
+//Cron
+add_action( 'plugin_vulnerabilities_hourly_cron', 'plugin_vulnerabilities_do_this_hourly' );
+
+function plugin_vulnerabilities_do_this_hourly() {
+	if ( ! function_exists( 'get_plugins' ) )
+        require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+    $plugin_folder = get_plugins( '/' . plugin_basename( dirname( __FILE__ ) ) );
+    $plugin_file = basename( ( __FILE__ ) );
+    $plugin_folder[$plugin_file]['Version'];
+	if ( ( get_option('plugin_vulnerabilities_version') && version_compare( get_option('plugin_vulnerabilities_version'),$plugin_folder[$plugin_file]['Version'],'<') ) || (!get_option('plugin_vulnerabilities_version')) ) {
+	
+		//Load vulnerabilities
+		$plugin_vulnerabilities = array();
+		foreach (range('a', 'z') as $char) {
+			include_once('vulnerabilities/'.$char.'.php');
+		}
+		
+		//Load previously alerted vulnerabilities
+		if (get_option('plugin_vulnerabilities_email_alerts_sent'))
+			$email_alerts_sent = get_option('plugin_vulnerabilities_email_alerts_sent');
+		else
+			$email_alerts_sent = array();
+		
+		//Check if installed plugins have vulnerabilities
+		$plugin_list = get_plugins();
+		$plugin_list_paths = array_keys($plugin_list);
+		$current = "";
+		$old = "";
+		foreach ($plugin_list_paths as &$value) {
+			preg_match_all('/([a-z0-9\-]+)\//', $value, $plugin_path);
+			if (isset($plugin_path[1][0])) {
+				$plugin_path=$plugin_path[1][0];
+			
+				if (array_key_exists($plugin_path, $plugin_vulnerabilities)) {
+					$plugin = get_plugin_data( WP_PLUGIN_DIR."/".$value, $markup = true, $translate = true );
+					foreach ($plugin_vulnerabilities[$plugin_path] as &$vulnerability) {
+						if ( version_compare( $plugin["Version"], $vulnerability["FirstVersion"], '>=') && version_compare( $plugin["Version"], $vulnerability["LastVersion"], '<=') ) {
+							if ( (array_key_exists($plugin["Name"], $email_alerts_sent) && (!in_array($vulnerability["URL"], $email_alerts_sent[$plugin["Name"]]))) || !array_key_exists($plugin["Name"], $email_alerts_sent) ) {
+								$name = $plugin["Name"];
+								$version = $plugin["Version"];
+								$vulnerabilty = $vulnerability["TypeOfVulnerability"];
+								$vulnerabiltyURL = $vulnerability["URL"];
+								
+								$subject = "[".get_option( 'blogname' )."] Vulnerability in Installed Version of ".$name;
+								$message = "WordPress site: ".get_option( 'siteurl' )."\n\nThe installed version of the ".$name." plugin, ".$version.", contains a ".$vulnerabilty." vulnerability. More details on the vulnerability can be found at ".$vulnerabiltyURL.".\n\n\n\nWarning sent from the Plugin Vulnerabilities plugin. If your website has been hacked we can help you to clean and secure the website: https://www.whitefirdesign.com/services/hacked-wordpress-website-cleanup.html.";
+								wp_mail( get_option( 'admin_email' ), $subject, $message);
+								
+								if (!array_key_exists($plugin["Name"], $email_alerts_sent)) {
+									$email_alerts_sent[$plugin["Name"]] = array($vulnerability["URL"]);
+								}
+								else
+									array_push($email_alerts_sent[$plugin["Name"]], $vulnerability["URL"]);
+								update_option('plugin_vulnerabilities_email_alerts_sent',$email_alerts_sent);
+							}
+						}
+					}
+				}
+			}
+		}
+		update_option('plugin_vulnerabilities_version',$plugin_folder[$plugin_file]['Version']);
+	}
+}
+
+register_deactivation_hook( __FILE__, 'plugin_vulnerabilities_deactivation' );
+function plugin_vulnerabilities_deactivation() {
+	wp_clear_scheduled_hook( 'plugin_vulnerabilities_hourly_cron' );
 }

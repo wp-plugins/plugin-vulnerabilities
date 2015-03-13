@@ -13,30 +13,32 @@ Alerts when installed plugins contain known security vulnerabilities. Also lists
 
 This plugin checks the plugins you have installed against a list of verified security vulnerabilities. If the installed version of a plugin is vulnerable an alert is added to the Installed Plugins page, otherwise details of the vulnerabilities are included on the Plugin Vulnerabilities page.
 
-This plugin is most important use is to protect against website being hacked, but it is also helpful when working to determine how a website was hacked during the cleanup process of the hacked website. If your website has been hacked we can [help you to clean and secure it](https://www.whitefirdesign.com/services/hacked-wordpress-website-cleanup.html?pk_campaign=Plugin-Vulnerabilities).
+The plugin also can be set to send out an email to the webmaster if a vulnerability is in the installed version of a plugin, which is useful if update plugins using our [Automatic Plugin Updates plugin](https://wordpress.org/plugins/automatic-plugin-updates/) or some other method outside of the Installed Plugins page. 
 
-Because we verify each vulnerability before including it not all known vulnerabilities are included, but we are increasing the number of included vulnerabilities on a regular basis.
+This plugin's most important use is to protect against websites being hacked, but it is also helpful when working to determine how a website was hacked during the cleanup process of the hacked website. If your website has been hacked we can [help you to clean and secure it](https://www.whitefirdesign.com/services/hacked-wordpress-website-cleanup.html?pk_campaign=Plugin-Vulnerabilities).
+
+Because we verify each vulnerability before including it, not all known vulnerabilities are included, but we are increasing the number of included vulnerabilities on a regular basis.
 
 If you want to let us know of a missing vulnerability or if we need to correct something in an included vulnerability, please leave a message in the support forum or send an email to pluginvulnerabilities@whitefirdesign.com. For missing vulnerabilities please include a link to the details of the vulnerability.
 
-**Stats** (As of March 2, 2015)
-
-* 200 vulnerabilities included
-* 54 included vulnerabilities are in the most recent version of plugins (49 of these plugins have been [removed from the Plugin Directory](https://wordpress.org/plugins/no-longer-in-directory/))
-* 14 vulnerabilities have been fixed in part due to our work on this plugin
-* 5 included [vulnerabilities in security plugins](https://www.whitefirdesign.com/plugin-vulnerabilities/vulnerabilities-in-wordpress-security-plugins.html)
-* Top vulnerability types:
- * cross-site request forgery (CSRF)/cross-site scripting (XSS): 49 vulnerabilities
- * reflected cross-site scripting (XSS): 39 vulnerabilities
- * unrestricted file upload: 31 vulnerabilities
- * arbitrary file viewing: 16 vulnerabilities
- * SQL injection: 15 vulnerabilities
-* Top vulnerability discoverers:
- * [dxwsecurity](https://security.dxw.com/advisories/): 27 vulnerabilities
- * [Kacper Szurek](http://security.szurek.pl/): 25 vulnerabilities
- * [High-Tech Bridge](https://www.htbridge.com/advisory/): 10 vulnerabilities
- * [HomeLab IT](http://www.homelab.it/): 6 vulnerabilities
- * [Netsparker](https://www.netsparker.com/netsparker-advisories/): 2 vulnerabilities
+> **Stats** (As of March 2, 2015)
+> 
+> * 200 vulnerabilities included
+> * 54 included vulnerabilities are in the most recent version of plugins (49 of these plugins have been [removed from the Plugin Directory](https://wordpress.org/plugins/no-longer-in-directory/))
+> * 14 vulnerabilities have been [fixed in part due to our work on this plugin](https://www.whitefirdesign.com/blog/2015/03/06/we-have-now-helped-get-16-wordpress-plugin-vulnerabilities-fixed/)
+> * 5 included [vulnerabilities in security plugins](https://www.whitefirdesign.com/plugin-vulnerabilities/vulnerabilities-in-wordpress-security-plugins.html)
+> * Top vulnerability types:
+>  * cross-site request forgery (CSRF)/cross-site scripting (XSS): 49 vulnerabilities
+>  * reflected cross-site scripting (XSS): 39 vulnerabilities
+>  * unrestricted file upload: 31 vulnerabilities
+>  * arbitrary file viewing: 16 vulnerabilities
+>  * SQL injection: 15 vulnerabilities
+> * Top vulnerability discoverers:
+>  * [dxwsecurity](https://security.dxw.com/advisories/): 27 vulnerabilities
+>  * [Kacper Szurek](http://security.szurek.pl/): 25 vulnerabilities
+>  * [High-Tech Bridge](https://www.htbridge.com/advisory/): 10 vulnerabilities
+>  * [HomeLab IT](http://www.homelab.it/): 6 vulnerabilities
+>  * [Netsparker](https://www.netsparker.com/netsparker-advisories/): 2 vulnerabilities
 
 
 == Installation ==
@@ -54,6 +56,10 @@ If you want to let us know of a missing vulnerability or if we need to correct s
 2. Full Listing of Vulnerabilities That Have Existed in Installed Plugins
 
 == Changelog ==
+
+= 1.0.17 =
+* Added optional email alerts
+* Added 9 vulnerabilities
 
 = 1.0.16 =
 * Added 9 vulnerabilities

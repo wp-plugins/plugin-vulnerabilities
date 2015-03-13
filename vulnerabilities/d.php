@@ -62,6 +62,12 @@ $plugin_vulnerabilities["download-manager"] = array(
 		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "http://packetstormsecurity.com/files/129536/Wordpress-Download-Manager-download-manager-Unauthenticated-File-Upload.html"
 	),
+	"3" => array(
+		"FirstVersion" => "2.7.1",
+		"LastVersion" => "2.7.2",
+		"TypeOfVulnerability" => "privilege escalation",
+		"URL" => "http://packetstormsecurity.com/files/129536/Wordpress-Download-Manager-download-manager-Unauthenticated-File-Upload.html"
+	),
 );
 
 $plugin_vulnerabilities["download-shortcode"] = array(

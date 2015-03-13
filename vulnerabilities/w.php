@@ -11,6 +11,18 @@ $plugin_vulnerabilities["w3-total-cache"] = array(
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
 		"URL" => "https://vexatioustendencies.com/wordpress-plugin-vulnerability-dump-part-2/"
 	),
+	"2" => array(
+		"FirstVersion" => "0.9.0",
+		"LastVersion" => "0.9.4",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://www.secuvera.de/advisories/secuvera-SA-2014-01.txt"
+	),
+	"3" => array(
+		"FirstVersion" => "0.9.2.6",
+		"LastVersion" => "0.9.4",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
+		"URL" => "http://mazinahmed1.blogspot.com/2014/12/w3-total-caches-w3totalfail.html"
+	),
 );
 
 $plugin_vulnerabilities["watu"] = array(
@@ -127,6 +139,15 @@ $plugin_vulnerabilities["wp-copysafe-pdf"] = array(
 		"LastVersion" => "0.7",
 		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "https://www.htbridge.com/advisory/HTB23236"
+	),
+);
+
+$plugin_vulnerabilities["wp-cron-dashboard"] = array(
+	"1" => array(
+		"FirstVersion" => "1.1.0",
+		"LastVersion" => "1.1.5",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://www.htbridge.com/advisory/HTB23189"
 	),
 );
 
@@ -373,6 +394,15 @@ $plugin_vulnerabilities["wpdatatables"] = array(
 		"LastVersion" => "1.0.53",
 		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "http://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-shell-upload-vulnerability/"
+	),
+);
+
+$plugin_vulnerabilities["wpshop"] = array(
+	"1" => array(
+		"FirstVersion" => "1.3.1.6",
+		"LastVersion" => "1.3.9.5",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00036/"
 	),
 );
 

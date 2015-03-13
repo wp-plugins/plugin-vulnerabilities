@@ -38,6 +38,12 @@ $plugin_vulnerabilities["reflex-gallery"] = array(
 		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-reflex-gallery-arbitrary-file-upload-vulnerability.html"
 	),
+	"2" => array(
+		"FirstVersion" => "3.1.3",
+		"LastVersion" => "3.1.3",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://en.1337day.com/exploit/23369"
+	),
 );
 
 $plugin_vulnerabilities["rent-a-car"] = array(
