@@ -91,6 +91,27 @@ $plugin_vulnerabilities["wordpress-mobile-pack"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wordpress-seo"] = array(
+	"1" => array(
+		"FirstVersion" => "1.5.0",
+		"LastVersion" => "1.5.6",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/SQL injection",
+		"URL" => "http://www.exploit-db.com/exploits/36413/"
+	),
+	"2" => array(
+		"FirstVersion" => "1.6",
+		"LastVersion" => "1.6.3",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/SQL injection",
+		"URL" => "http://www.exploit-db.com/exploits/36413/"
+	),
+	"3" => array(
+		"FirstVersion" => "1.7",
+		"LastVersion" => "1.7.3.3",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/SQL injection",
+		"URL" => "http://www.exploit-db.com/exploits/36413/"
+	),
+);
+
 $plugin_vulnerabilities["wp-all-import"] = array(
 	"1" => array(
 		"FirstVersion" => "3.0",
@@ -397,12 +418,30 @@ $plugin_vulnerabilities["wpdatatables"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wpmarketplace"] = array(
+	"1" => array(
+		"FirstVersion" => "2.2.0",
+		"LastVersion" => "2.4.0",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://security.szurek.pl/wp-marketplace-240-arbitrary-file-download.html"
+	),
+);
+
 $plugin_vulnerabilities["wpshop"] = array(
 	"1" => array(
 		"FirstVersion" => "1.3.1.6",
 		"LastVersion" => "1.3.9.5",
 		"TypeOfVulnerability" => "unrestricted file upload",
 		"URL" => "https://research.g0blin.co.uk/g0blin-00036/"
+	),
+);
+
+$plugin_vulnerabilities["wpstorecart"] = array(
+	"1" => array(
+		"FirstVersion" => "2.0.0",
+		"LastVersion" => "2.5.29",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-wpstorecart-arbitrary-file-upload-vulnerability.html"
 	),
 );
 

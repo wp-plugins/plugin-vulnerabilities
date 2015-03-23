@@ -115,7 +115,7 @@ $plugin_vulnerabilities["plugin-newsletter"] = array(
 $plugin_vulnerabilities["pods"] = array(
 	"1" => array(
 		"FirstVersion" => "2.3.10",
-		"LastVersion" => "2.5.1.1",
+		"LastVersion" => "2.5.1.2",
 		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129890/WordPress-Pods-2.4.3-CSRF-Cross-Site-Scripting.html"
 	),

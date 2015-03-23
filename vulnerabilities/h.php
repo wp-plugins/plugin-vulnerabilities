@@ -21,3 +21,12 @@ $plugin_vulnerabilities["html5-mp3-player-with-playlist"] = array(
 		"URL" => "http://h4x0resec.blogspot.com/2014/11/wordpress-html5-mp3-player-with.html"
 	),
 );
+
+$plugin_vulnerabilities["html5avmanager"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1.0",
+		"LastVersion" => "0.2.7",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-html5-av-manager-shell-upload-vulnerability.html"
+	),
+);

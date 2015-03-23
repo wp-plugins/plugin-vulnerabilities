@@ -179,6 +179,18 @@ $plugin_vulnerabilities["cp-multi-view-calendar"] = array(
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://www.milw00rm.com/exploits/7740"
 	),
+	"3" => array(
+		"FirstVersion" => "1.0.2",
+		"LastVersion" => "1.1.4",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://www.exploit-db.com/exploits/36243/"
+	),
+	"4" => array(
+		"FirstVersion" => "1.0.1",
+		"LastVersion" => "1.1.4",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "http://www.exploit-db.com/exploits/36243/"
+	),
 );
 
 $plugin_vulnerabilities["crossslide-jquery-plugin-for-wordpress"] = array(

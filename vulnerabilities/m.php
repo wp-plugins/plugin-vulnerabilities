@@ -31,6 +31,24 @@ $plugin_vulnerabilities["mikiurl-wordpress-eklentisi"] = array(
 	),
 );
 
+$plugin_vulnerabilities["miwoftp"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.0.4",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00038/"
+	),
+);
+
+$plugin_vulnerabilities["mm-forms-community"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "2.2.6",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-mm-forms-community-shell-upload-vulnerability.html"
+	),
+);
+
 $plugin_vulnerabilities["mobile-domain"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

@@ -49,6 +49,15 @@ $plugin_vulnerabilities["fourteen-extended"] = array(
 	),
 );
 
+$plugin_vulnerabilities["front-file-manager"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1",
+		"LastVersion" => "0.1",
+		"TypeOfVulnerability" => "unrestricted file upload",
+		"URL" => "http://www.exploit-db.com/exploits/19012/"
+	),
+);
+
 $plugin_vulnerabilities["frontend-uploader"] = array(
 	"1" => array(
 		"FirstVersion" => "0.9",
