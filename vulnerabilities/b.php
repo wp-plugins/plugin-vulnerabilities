@@ -14,7 +14,7 @@ $plugin_vulnerabilities["banner-effect-header"] = array(
 	"2" => array(
 		"FirstVersion" => "1.2.0",
 		"LastVersion" => "1.2.7",
-		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "https://www.netsparker.com/cve-2015-1384-xss-vulnerability-in-banner-effect-header/"
 	),
 );
@@ -32,7 +32,7 @@ $plugin_vulnerabilities["bp-group-documents"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.2.1",
-		"TypeOfVulnerability" => "file movement",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/file movement",
 		"URL" => "https://security.dxw.com/advisories/moving-any-file-php-user-has-access-to-in-bp-group-documents-1-2-1/"
 	),
 	"2" => array(

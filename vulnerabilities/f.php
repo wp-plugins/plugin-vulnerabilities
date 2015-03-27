@@ -49,11 +49,20 @@ $plugin_vulnerabilities["fourteen-extended"] = array(
 	),
 );
 
+$plugin_vulnerabilities["foxypress"] = array(
+	"1" => array(
+		"FirstVersion" => "0.3.6.1",
+		"LastVersion" => "0.4.2.1",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-foxypress-shell-upload-vulnerability.html"
+	),
+);
+
 $plugin_vulnerabilities["front-file-manager"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",
 		"LastVersion" => "0.1",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.exploit-db.com/exploits/19012/"
 	),
 );

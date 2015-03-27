@@ -8,7 +8,7 @@ $plugin_vulnerabilities["theme-my-login"] = array(
 	"1" => array(
 		"FirstVersion" => "6.0",
 		"LastVersion" => "6.3.9",
-		"TypeOfVulnerability" => "local file inclusion (LFI)",
+		"TypeOfVulnerability" => "authenticated local file inclusion (LFI)",
 		"URL" => "https://security.dxw.com/advisories/lfi-in-theme-my-login/"
 	),
 );

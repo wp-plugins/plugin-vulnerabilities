@@ -17,7 +17,7 @@ $plugin_vulnerabilities["really-easy-slider"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",
 		"LastVersion" => "0.1",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.exploit-db.com/exploits/17872/"
 	),
 );
@@ -35,14 +35,23 @@ $plugin_vulnerabilities["reflex-gallery"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "3.0",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-reflex-gallery-arbitrary-file-upload-vulnerability.html"
 	),
 	"2" => array(
 		"FirstVersion" => "3.1.3",
 		"LastVersion" => "3.1.3",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://en.1337day.com/exploit/23369"
+	),
+);
+
+$plugin_vulnerabilities["related-posts-lite"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.1",
+		"TypeOfVulnerability" => "authenticated remote code execution",
+		"URL" => "http://research.evex.pw/?vuln=9"
 	),
 );
 
@@ -50,7 +59,7 @@ $plugin_vulnerabilities["rent-a-car"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.0",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.exploit-db.com/exploits/17872/"
 	),
 );
@@ -65,7 +74,7 @@ $plugin_vulnerabilities["revslider"] = array(
 	"2" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "3.0.95",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://whatisgon.wordpress.com/2014/11/30/another-revslider-vulnerability/"
 	),
 );

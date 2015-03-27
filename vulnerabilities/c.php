@@ -26,7 +26,7 @@ $plugin_vulnerabilities["cart66-lite"] = array(
 	"1" => array(
 		"FirstVersion" => "1.4",
 		"LastVersion" => "1.5.1.17",
-		"TypeOfVulnerability" => "SQL injection",
+		"TypeOfVulnerability" => "authenticated SQL injection",
 		"URL" => "http://security.szurek.pl/cart66-lite-wordpress-ecommerce-15117-blind-sql-injection.html"
 	),
 	"2" => array(
@@ -41,7 +41,7 @@ $plugin_vulnerabilities["category-list-portfolio-page"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.2.3",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.exploit-db.com/exploits/17872/"
 	),
 );
@@ -50,7 +50,7 @@ $plugin_vulnerabilities["cforms2"] = array(
 	"1" => array(
 		"FirstVersion" => "10.2",
 		"LastVersion" => "14.7",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://1337day.com/exploit/23056"
 	),
 );
@@ -92,7 +92,7 @@ $plugin_vulnerabilities["codecanyon-3958969-wpdatatables-responsive-tables-in-wo
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.0.53",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-shell-upload-vulnerability/"
 	),
 );
@@ -137,7 +137,7 @@ $plugin_vulnerabilities["contact-form-maker"] = array(
 	"1" => array(
 		"FirstVersion" => "1.7.10",
 		"LastVersion" => "1.7.18",
-		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"TypeOfVulnerability" => "authenticated persistent cross-site scripting (XSS)",
 		"URL" => "http://security.szurek.pl/contact-form-maker-1718-xss.html"
 	),
 );

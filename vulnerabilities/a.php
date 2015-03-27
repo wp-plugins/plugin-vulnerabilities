@@ -4,6 +4,16 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["ab-google-map-travel"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "3.4",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/130960/WordPress-AB-Google-Map-Travel-CSRF-XSS.html"
+	),
+);
+
+
 $plugin_vulnerabilities["acobot"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
@@ -40,6 +50,15 @@ $plugin_vulnerabilities["ajax-pagination"] = array(
 	),
 );
 
+$plugin_vulnerabilities["ajax-search-lite"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "3.11",
+		"TypeOfVulnerability" => "authenticated remote code execution",
+		"URL" => "http://research.evex.pw/?vuln=9"
+	),
+);
+
 $plugin_vulnerabilities["all-video-gallery"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
@@ -58,17 +77,26 @@ $plugin_vulnerabilities["another-wordpress-classifieds-plugin"] = array(
 	),
 );
 
+$plugin_vulnerabilities["aspose-cloud-ebook-generator"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://packetstormsecurity.com/files/131040/WordPress-Aspose-Cloud-eBook-Generator-File-Download.html"
+	),
+);
+
 $plugin_vulnerabilities["asset-manager"] = array(
 	"1" => array(
 		"FirstVersion" => "0.2",
 		"LastVersion" => "0.2",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.exploit-db.com/exploits/18993/"
 	),
 	"2" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.0",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.exploit-db.com/exploits/18993/"
 	),
 );

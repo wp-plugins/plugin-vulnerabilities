@@ -17,7 +17,7 @@ $plugin_vulnerabilities["uploader"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.0",
 		"LastVersion" => "1.0.4",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-uploader-arbitrary-file-upload-vulnerability.html"
 	),
 );

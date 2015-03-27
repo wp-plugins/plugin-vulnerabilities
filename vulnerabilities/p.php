@@ -35,13 +35,13 @@ $plugin_vulnerabilities["photo-gallery"] = array(
 	"4" => array(
 		"FirstVersion" => "1.1.12",
 		"LastVersion" => "1.2.5",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "authenticated arbitrary file upload",
 		"URL" => "http://security.szurek.pl/photo-gallery-125-unrestricted-file-upload.html"
 	),
 	"5" => array(
 		"FirstVersion" => "1.0.1",
 		"LastVersion" => "1.2.5",
-		"TypeOfVulnerability" => "SQL injection",
+		"TypeOfVulnerability" => "authenticated SQL injection",
 		"URL" => "http://packetstormsecurity.com/files/130148/WordPress-Photo-Gallery-1.2.8-SQL-Injection.html"
 	),
 );
@@ -56,7 +56,7 @@ $plugin_vulnerabilities["pica-photo-gallery"] = array(
 	"2" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.0",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://packetstormsecurity.com/files/113504/WordPress-Pica-Photo-Gallery-1.0-Shell-Upload.html"
 	),
 );
@@ -83,7 +83,7 @@ $plugin_vulnerabilities["pixabay-images"] = array(
 	"1" => array(
 		"FirstVersion" => "2.0",
 		"LastVersion" => "2.3",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://packetstormsecurity.com/files/130017/WordPress-Pixarbay-Images-2.3-XSS-Bypass-Upload-Traversal.html"
 	),
 );
@@ -98,7 +98,7 @@ $plugin_vulnerabilities["player"] = array(
 	"2" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.3",
-		"TypeOfVulnerability" => "cross-site scripting (XSS)",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/124353/WordPress-Spider-Video-Player-2.1-Cross-Site-Scripting.html"
 	),
 );

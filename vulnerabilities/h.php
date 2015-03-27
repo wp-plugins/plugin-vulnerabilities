@@ -26,7 +26,7 @@ $plugin_vulnerabilities["html5avmanager"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1.0",
 		"LastVersion" => "0.2.7",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-html5-av-manager-shell-upload-vulnerability.html"
 	),
 );

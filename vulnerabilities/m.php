@@ -44,7 +44,7 @@ $plugin_vulnerabilities["mm-forms-community"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "2.2.6",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-mm-forms-community-shell-upload-vulnerability.html"
 	),
 );

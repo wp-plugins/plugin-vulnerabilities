@@ -32,7 +32,7 @@ $plugin_vulnerabilities["xcloner-backup-and-restore"] = array(
 	"5" => array(
 		"FirstVersion" => "3.1.0",
 		"LastVersion" => "3.1.1",
-		"TypeOfVulnerability" => "information disclosure",
+		"TypeOfVulnerability" => "authenticated backup download",
 		"URL" => "http://security.szurek.pl/xcloner-backup-and-restore-311-backup-download.html"
 	),
 );
@@ -41,7 +41,7 @@ $plugin_vulnerabilities["xerte-online"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",
 		"LastVersion" => "0.3.2",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-xerte-online-arbitrary-file-upload-vulnerability.html"
 	),
 );

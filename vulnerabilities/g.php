@@ -8,7 +8,7 @@ $plugin_vulnerabilities["gallery-bank"] = array(
 	"1" => array(
 		"FirstVersion" => "3.0.0",
 		"LastVersion" => "3.0.34",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://cxsecurity.com/issue/WLB-2014100159"
 	),
 	"2" => array(

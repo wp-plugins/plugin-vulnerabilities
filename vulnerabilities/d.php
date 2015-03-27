@@ -45,7 +45,7 @@ $plugin_vulnerabilities["dmsguestbook"] = array(
 		"FirstVersion" => "1.5.0",
 		"LastVersion" => "1.17.4",
 		"TypeOfVulnerability" => "file modification",
-		"URL" => "http://packetstormsecurity.com/files/129752/WordPress-Dmsguestbook-Unauthenticated-Data-Injection.html"
+		"URL" => "http://research.evex.pw/?vuln=5"
 	),
 );
 
@@ -59,14 +59,23 @@ $plugin_vulnerabilities["download-manager"] = array(
 	"2" => array(
 		"FirstVersion" => "2.7.0",
 		"LastVersion" => "2.7.4",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://packetstormsecurity.com/files/129536/Wordpress-Download-Manager-download-manager-Unauthenticated-File-Upload.html"
 	),
 	"3" => array(
-		"FirstVersion" => "2.7.1",
+		"FirstVersion" => "2.7.0",
 		"LastVersion" => "2.7.2",
 		"TypeOfVulnerability" => "privilege escalation",
-		"URL" => "http://packetstormsecurity.com/files/129536/Wordpress-Download-Manager-download-manager-Unauthenticated-File-Upload.html"
+		"URL" => "http://security.szurek.pl/wordpress-download-manager-272-privilege-escalation.html"
+	),
+);
+
+$plugin_vulnerabilities["download-monitor"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.6.3",
+		"TypeOfVulnerability" => "authenticated information disclosure",
+		"URL" => "http://research.evex.pw/?vuln=7"
 	),
 );
 
@@ -83,7 +92,7 @@ $plugin_vulnerabilities["dp-thumbnail"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.0",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.exploit-db.com/exploits/17872/"
 	),
 );
@@ -110,7 +119,7 @@ $plugin_vulnerabilities["duplicator"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",
 		"LastVersion" => "0.5.8",
-		"TypeOfVulnerability" => "backup download",
+		"TypeOfVulnerability" => "authenticated backup download",
 		"URL" => "http://security.szurek.pl/duplicator-058-privilege-escalation.html"
 	),
 );

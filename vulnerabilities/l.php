@@ -14,7 +14,7 @@ $plugin_vulnerabilities["levelfourstorefront"] = array(
 	"2" => array(
 		"FirstVersion" => "2.0",
 		"LastVersion" => "8.1.14",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-wordpress-shopping-cart-multiple-vulnerability.html"
 	),
 );
@@ -50,7 +50,7 @@ $plugin_vulnerabilities["lisl-last-image-slider"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.0",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.exploit-db.com/exploits/17872/"
 	),
 );

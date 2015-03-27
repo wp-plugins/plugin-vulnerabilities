@@ -53,7 +53,7 @@ $plugin_vulnerabilities["woopra"] = array(
 	"1" => array(
 		"FirstVersion" => "1.4.1",
 		"LastVersion" => "1.4.3.1",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://packetstormsecurity.com/files/123525/WordPress-Woopra-Remote-Code-Execution.html"
 	),
 );
@@ -116,7 +116,7 @@ $plugin_vulnerabilities["wp-all-import"] = array(
 	"1" => array(
 		"FirstVersion" => "3.0",
 		"LastVersion" => "3.2.3",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.pritect.net/blog/wp-all-import-3-2-3-pro-4-0-3-vulnerability-breakdown"
 	),
 );
@@ -140,7 +140,7 @@ $plugin_vulnerabilities["wp-business-intelligence-lite"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.0.7",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://packetstormsecurity.com/files/125927/"
 	),
 );
@@ -158,8 +158,8 @@ $plugin_vulnerabilities["wp-copysafe-pdf"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",
 		"LastVersion" => "0.7",
-		"TypeOfVulnerability" => "unrestricted file upload",
-		"URL" => "https://www.htbridge.com/advisory/HTB23236"
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "http://packetstormsecurity.com/files/127457/WordPress-CopySafe-PDF-Protection-0.6-Shell-Upload.html"
 	),
 );
 
@@ -185,7 +185,7 @@ $plugin_vulnerabilities["wp-easycart"] = array(
 	"1" => array(
 		"FirstVersion" => "1.1.27",
 		"LastVersion" => "3.0.8",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "authenticated arbitrary file upload",
 		"URL" => "http://security.szurek.pl/wordpress-shopping-cart-304-unrestricted-file-upload.html"
 	),
 );
@@ -257,7 +257,7 @@ $plugin_vulnerabilities["wp-marketplace"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.0 beta",
 		"LastVersion" => "1.1.0",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.exploit-db.com/exploits/17872/"
 	),
 );
@@ -311,7 +311,7 @@ $plugin_vulnerabilities["wp-seo-spy-google"] = array(
 	"1" => array(
 		"FirstVersion" => "3.0",
 		"LastVersion" => "3.1",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://1337day.com/exploit/21404"
 	),
 );
@@ -320,7 +320,7 @@ $plugin_vulnerabilities["wp-slimstat-ex"] = array(
 	"1" => array(
 		"FirstVersion" => "2.1",
 		"LastVersion" => "2.1.2",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://packetstormsecurity.com/files/123494/WordPress-Slimstat-Ex-Code-Execution.html"
 	),
 );
@@ -329,7 +329,7 @@ $plugin_vulnerabilities["wp-special-textboxes"] = array(
 	"1" => array(
 		"FirstVersion" => "5.0.85",
 		"LastVersion" => "5.1.90",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "https://wordpress.org/support/topic/wp-special-textboxes-was-exploited-with-backdoor"
 	),
 );
@@ -368,7 +368,7 @@ $plugin_vulnerabilities["wp-symposium"] = array(
 	"1" => array(
 		"FirstVersion" => "13.04",
 		"LastVersion" => "14.11",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.homelab.it/index.php/2014/12/11/wordpress-wp-symposium-shell-upload/"
 	),
 );
@@ -413,7 +413,7 @@ $plugin_vulnerabilities["wpdatatables"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "1.0.53",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-shell-upload-vulnerability/"
 	),
 );
@@ -425,13 +425,19 @@ $plugin_vulnerabilities["wpmarketplace"] = array(
 		"TypeOfVulnerability" => "arbitrary file viewing",
 		"URL" => "http://security.szurek.pl/wp-marketplace-240-arbitrary-file-download.html"
 	),
+	"2" => array(
+		"FirstVersion" => "1.5.0",
+		"LastVersion" => "2.4.0",
+		"TypeOfVulnerability" => "remote code execution",
+		"URL" => "http://www.homelab.it/index.php/2015/03/24/wp-marketplace-rce/"
+	),
 );
 
 $plugin_vulnerabilities["wpshop"] = array(
 	"1" => array(
 		"FirstVersion" => "1.3.1.6",
 		"LastVersion" => "1.3.9.5",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "https://research.g0blin.co.uk/g0blin-00036/"
 	),
 );
@@ -440,7 +446,7 @@ $plugin_vulnerabilities["wpstorecart"] = array(
 	"1" => array(
 		"FirstVersion" => "2.0.0",
 		"LastVersion" => "2.5.29",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-wpstorecart-arbitrary-file-upload-vulnerability.html"
 	),
 );
@@ -449,7 +455,7 @@ $plugin_vulnerabilities["wysija-newsletters"] = array(
 	"1" => array(
 		"FirstVersion" => "1.1",
 		"LastVersion" => "2.6.7",
-		"TypeOfVulnerability" => "unrestricted file upload",
+		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://packetstormsecurity.com/files/127363/Wordpress-MailPoet-wysija-newsletters-Unauthenticated-File-Upload.html"
 	),
 );
