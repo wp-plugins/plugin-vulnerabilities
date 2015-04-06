@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["sell-downloads"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.1",
+		"LastVersion" => "1.0.1",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "https://research.g0blin.co.uk/cve-2014-9511/"
+	),
+);
+
 $plugin_vulnerabilities["seo-watcher"] = array(
 	"1" => array(
 		"FirstVersion" => "1.3.2",
@@ -34,6 +43,27 @@ $plugin_vulnerabilities["showbiz"] = array(
 		"LastVersion" => "1.7.1",
 		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://whatisgon.wordpress.com/2014/11/30/another-revslider-vulnerability/"
+	),
+);
+
+$plugin_vulnerabilities["simple-ads-manager"] = array(
+	"1" => array(
+		"FirstVersion" => "2.0.73",
+		"LastVersion" => "2.6.96",
+		"TypeOfVulnerability" => "information disclosure",
+		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html?language=en"
+	),
+	"2" => array(
+		"FirstVersion" => "2.3.85",
+		"LastVersion" => "2.5.94",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html?language=en"
+	),
+	"3" => array(
+		"FirstVersion" => "2.0.73",
+		"LastVersion" => "2.6.96",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html?language=en"
 	),
 );
 
@@ -188,6 +218,15 @@ $plugin_vulnerabilities["spnbabble"] = array(
 		"LastVersion" => "1.4.1",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129580/WordPress-SPNbabble-1.4.1-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["store-locator"] = array(
+	"1" => array(
+		"FirstVersion" => "2.11",
+		"LastVersion" => "3.3.1",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => ""
 	),
 );
 

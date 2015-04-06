@@ -86,6 +86,34 @@ $plugin_vulnerabilities["aspose-cloud-ebook-generator"] = array(
 	),
 );
 
+$plugin_vulnerabilities["aspose-doc-exporter"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://packetstormsecurity.com/files/131167/WordPress-Aspose-Doc-Exporter-File-Download.html"
+	),
+);
+
+$plugin_vulnerabilities["aspose-importer-exporter"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://packetstormsecurity.com/files/131162/WordPress-Aspose-Importer-Exporter-1.0-File-Download.html"
+	),
+);
+
+$plugin_vulnerabilities["aspose-pdf-exporter"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://packetstormsecurity.com/files/131161/WordPress-Aspose-PDF-Exporter-File-Download.html"
+	),
+);
+
+
 $plugin_vulnerabilities["asset-manager"] = array(
 	"1" => array(
 		"FirstVersion" => "0.2",

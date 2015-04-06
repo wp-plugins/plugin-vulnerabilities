@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["page-builder-sandwich"] = array(
+	"1" => array(
+		"FirstVersion" => "0.4",
+		"LastVersion" => "0.11",
+		"TypeOfVulnerability" => "full path disclosure",
+		"URL" => "http://k3dsec.blogspot.com/2015/03/wordpress-plugin-pagebuildersandwich.html"
+	),
+);
+
 $plugin_vulnerabilities["paid-memberships-pro"] = array(
 	"1" => array(
 		"FirstVersion" => "1.5.1",

@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["leads"] = array(
+	"1" => array(
+		"FirstVersion" => "1.5.2",
+		"LastVersion" => "1.6.2",
+		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00042/"
+	),
+);
+
 $plugin_vulnerabilities["levelfourstorefront"] = array(
 	"1" => array(
 		"FirstVersion" => "2.0",
@@ -52,6 +61,15 @@ $plugin_vulnerabilities["lisl-last-image-slider"] = array(
 		"LastVersion" => "1.0",
 		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.exploit-db.com/exploits/17872/"
+	),
+);
+
+$plugin_vulnerabilities["liveforms"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "3.0.1",
+		"TypeOfVulnerability" => "authenticated SQL injection",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00034/"
 	),
 );
 

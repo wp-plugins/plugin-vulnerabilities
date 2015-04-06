@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["newsletter"] = array(
+	"1" => array(
+		"FirstVersion" => "3.0.0",
+		"LastVersion" => "3.7.2",
+		"TypeOfVulnerability" => "open redirect",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00039/"
+	),
+);
+
 $plugin_vulnerabilities["nextend-facebook-connect"] = array(
 	"1" => array(
 		"FirstVersion" => "1.3.6",

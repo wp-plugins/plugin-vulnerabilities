@@ -21,24 +21,24 @@ Because we verify each vulnerability before including it, not all known vulnerab
 
 If you want to let us know of a missing vulnerability or if we need to correct something in an included vulnerability, please leave a message in the support forum or send an email to pluginvulnerabilities@whitefirdesign.com. For missing vulnerabilities please include a link to the details of the vulnerability.
 
-> **Stats** (As of March 2, 2015)
+> **Stats** (As of April 6, 2015)
 > 
-> * 200 vulnerabilities included
-> * 54 included vulnerabilities are in the most recent version of plugins (49 of these plugins have been [removed from the Plugin Directory](https://wordpress.org/plugins/no-longer-in-directory/))
-> * 14 vulnerabilities have been [fixed in part due to our work on this plugin](https://www.whitefirdesign.com/blog/2015/03/06/we-have-now-helped-get-16-wordpress-plugin-vulnerabilities-fixed/)
+> * 257 vulnerabilities included
+> * 61 included vulnerabilities are in the most recent version of plugins (57 of these plugins have been [removed from the Plugin Directory](https://wordpress.org/plugins/no-longer-in-directory/))
+> * 24 vulnerabilities have been [fixed in part due to our work on this plugin](https://www.whitefirdesign.com/blog/2015/03/06/we-have-now-helped-get-16-wordpress-plugin-vulnerabilities-fixed/)
 > * 5 included [vulnerabilities in security plugins](https://www.whitefirdesign.com/plugin-vulnerabilities/vulnerabilities-in-wordpress-security-plugins.html)
 > * Top vulnerability types:
->  * cross-site request forgery (CSRF)/cross-site scripting (XSS): 49 vulnerabilities
->  * reflected cross-site scripting (XSS): 39 vulnerabilities
->  * unrestricted file upload: 31 vulnerabilities
->  * arbitrary file viewing: 16 vulnerabilities
->  * SQL injection: 15 vulnerabilities
+>  * cross-site request forgery (CSRF)/cross-site scripting (XSS): 52 vulnerabilities
+>  * reflected cross-site scripting (XSS): 45 vulnerabilities
+>  * arbitrary file upload: 45 vulnerabilities
+>  * arbitrary file viewing: 23 vulnerabilities
+>  * SQL injection: 16 vulnerabilities
 > * Top vulnerability discoverers:
->  * [dxwsecurity](https://security.dxw.com/advisories/): 27 vulnerabilities
->  * [Kacper Szurek](http://security.szurek.pl/): 25 vulnerabilities
->  * [High-Tech Bridge](https://www.htbridge.com/advisory/): 10 vulnerabilities
->  * [HomeLab IT](http://www.homelab.it/): 6 vulnerabilities
->  * [Netsparker](https://www.netsparker.com/netsparker-advisories/): 2 vulnerabilities
+>  * [dxwsecurity](https://security.dxw.com/advisories/): 28 vulnerabilities
+>  * [Kacper Szurek](http://security.szurek.pl/): 28 vulnerabilities
+>  * [High-Tech Bridge](https://www.htbridge.com/advisory/): 12 vulnerabilities
+>  * [g0blin Research](https://research.g0blin.co.uk/): 12 vulnerabilities
+>  * [HomeLab IT](http://www.homelab.it/): 8 vulnerabilities
 
 
 == Installation ==
@@ -56,6 +56,9 @@ If you want to let us know of a missing vulnerability or if we need to correct s
 2. Full Listing of Vulnerabilities That Have Existed in Installed Plugins
 
 == Changelog ==
+
+= 1.0.20 =
+* Added 20 vulnerabilities
 
 = 1.0.19 =
 * Added 8 vulnerabilities

@@ -17,6 +17,12 @@ $plugin_vulnerabilities["gallery-bank"] = array(
 		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
 		"URL" => "http://www.securityfocus.com/archive/1/529637"
 	),
+	"3" => array(
+		"FirstVersion" => "3.0.100",
+		"LastVersion" => "3.0.101",
+		"TypeOfVulnerability" => "authenticated SQL injection",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00033/"
+	),
 );
 
 $plugin_vulnerabilities["gd-star-rating"] = array(
@@ -34,6 +40,15 @@ $plugin_vulnerabilities["geo-mashup"] = array(
 		"LastVersion" => "1.8.2",
 		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/130150/WordPress-Geo-Mashup-1.8.2-Cross-Site-Scripting.html"
+	),
+);
+
+$plugin_vulnerabilities["google-analytics-for-wordpress"] = array(
+	"1" => array(
+		"FirstVersion" => "4.2",
+		"LastVersion" => "5.3.2",
+		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"URL" => "http://klikki.fi/adv/yoast_analytics.html"
 	),
 );
 
@@ -85,6 +100,15 @@ $plugin_vulnerabilities["google-mp3-audio-player"] = array(
 		"LastVersion" => "1.0.11",
 		"TypeOfVulnerability" => "arbitrary file viewing",
 		"URL" => "http://www.exploit-db.com/exploits/35460/"
+	),
+);
+
+$plugin_vulnerabilities["gravity-file-ajax-upload-free"] = array(
+	"1" => array(
+		"FirstVersion" => "alpha 1.1",
+		"LastVersion" => "alpha 1.1",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "https://research.g0blin.co.uk/cve-2014-4972/"
 	),
 );
 

@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["easy-coming-soon"] = array(
+	"1" => array(
+		"FirstVersion" => "0.8",
+		"LastVersion" => "1.6.2",
+		"TypeOfVulnerability" => "authenticated persistent cross-site scripting (XSS)",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00032/"
+	),
+);
+
 $plugin_vulnerabilities["easy-media-gallery"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["x-forms-express"] = array(
+	"1" => array(
+		"FirstVersion" => "2.1.0",
+		"LastVersion" => "2.1.0",
+		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"URL" => "https://research.g0blin.co.uk/cve-2014-7151/"
+	),
+);
+
 $plugin_vulnerabilities["xcloner-backup-and-restore"] = array(
 	"1" => array(
 		"FirstVersion" => "2.1",

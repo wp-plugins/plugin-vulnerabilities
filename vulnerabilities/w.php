@@ -112,6 +112,15 @@ $plugin_vulnerabilities["wordpress-seo"] = array(
 	),
 );
 
+$plugin_vulnerabilities["work-the-flow-file-upload"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1.6",
+		"LastVersion" => "2.5.2",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "http://www.homelab.it/index.php/2015/04/04/wordpress-work-the-flow-file-upload-vulnerability/"
+	),
+);
+
 $plugin_vulnerabilities["wp-all-import"] = array(
 	"1" => array(
 		"FirstVersion" => "3.0",
@@ -142,6 +151,12 @@ $plugin_vulnerabilities["wp-business-intelligence-lite"] = array(
 		"LastVersion" => "1.0.7",
 		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://packetstormsecurity.com/files/125927/"
+	),
+	"2" => array(
+		"FirstVersion" => "1.1",
+		"LastVersion" => "1.6.1",
+		"TypeOfVulnerability" => "SQL injeciton",
+		"URL" => "http://packetstormsecurity.com/files/131228/WordPress-Business-Intelligence-Lite-1.6.1-SQL-Injection.html"
 	),
 );
 
@@ -379,6 +394,15 @@ $plugin_vulnerabilities["wp-timed-popup"] = array(
 		"LastVersion" => "1.3",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129510/WordPress-Timed-Popup-1.3-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["wp-ultimate-csv-importer"] = array(
+	"1" => array(
+		"FirstVersion" => "3.6",
+		"LastVersion" => "3.6.74",
+		"TypeOfVulnerability" => "information disclosure",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00025/"
 	),
 );
 
