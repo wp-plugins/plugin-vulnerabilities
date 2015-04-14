@@ -3,7 +3,7 @@
 Plugin Name: Plugin Vulnerabilities
 Plugin URI: https://www.whitefirdesign.com/plugin-vulnerabilities
 Description: Alerts when installed plugins contain known security vulnerabilities. Also lists vulnerabilities that exist in other versions of installed plugins.
-Version: 1.0.20
+Version: 1.0.21
 Author: White Fir Design
 Author URI: https://www.whitefirdesign.com/
 License: GPLv2
@@ -81,6 +81,8 @@ function plugin_vulnerabilities_add_plugin_row ( $plugin_file, $plugin_data, $st
 }
 
 function plugin_vulnerabilities_page() {
+	wp_enqueue_script('plugin-install');
+	add_thickbox();
 	
 	//Store submitted data
 	if ( ($_SERVER['REQUEST_METHOD'] === 'POST') && wp_verify_nonce($_POST['plugin_vulnerabilities'],'plugin_vulnerabilities') ) {
@@ -156,6 +158,7 @@ function plugin_vulnerabilities_page() {
 	echo '<br><br><br><br><br><br><hr><form  action="plugins.php?page=plugin-vulnerabilities" method="post">';
 	
 	echo '<table class="form-table">';
+	echo 'If you update plugins using our <a href="plugin-install.php?tab=plugin-information&plugin=automatic-plugin-updates&TB_iframe=true&width=600&height=550" class="thickbox">Automatic Plugin Updates plugin</a> or some other method outside of the Installed Plugins page you can enable email alerts so that you still be warned of vulnerabilities in the installed version of plugins:';
 	echo '<tr valign="top">';
 	echo '<th scope="row"><label for="email-alerts">'.__('Send Email Alerts For Vulnerabilities in Installed Versions of Plugins', 'automatic-plugin-updates' ).'</label></th>';
 	echo '<td><fieldset>';

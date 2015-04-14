@@ -192,6 +192,12 @@ $plugin_vulnerabilities["sp-client-document-manager"] = array(
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://packetstormsecurity.com/files/129212/WordPress-SP-Client-Document-Manager-2.4.1-SQL-Injection.html"
 	),
+	"2" => array(
+		"FirstVersion" => "1.5.9",
+		"LastVersion" => "2.5.3",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "http://www.exploit-db.com/exploits/36576/"
+	),
 );
 
 $plugin_vulnerabilities["spider-event-calendar"] = array(

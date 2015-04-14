@@ -59,6 +59,15 @@ $plugin_vulnerabilities["ajax-search-lite"] = array(
 	),
 );
 
+$plugin_vulnerabilities["all-in-one-wp-security-and-firewall"] = array(
+	"1" => array(
+		"FirstVersion" => "v3.7",
+		"LastVersion" => "v3.9.0",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/SQL injection",
+		"URL" => "http://www.homelab.it/index.php/2015/04/07/wordpress-all-in-one-wp-security-sql-injection-vulnerability/"
+	),
+);
+
 $plugin_vulnerabilities["all-video-gallery"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

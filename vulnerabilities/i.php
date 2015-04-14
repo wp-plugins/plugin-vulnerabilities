@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["i-dump-iphone-to-wordpress-photo-uploader"] = array(
+	"1" => array(
+		"FirstVersion" => "1.1.3",
+		"LastVersion" => "1.8",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "http://packetstormsecurity.com/files/131363/WordPress-Windows-Desktop-And-iPhone-Photo-Uploader-File-Upload.html"
+	),
+);
+
 $plugin_vulnerabilities["image-symlinks"] = array(
 	"1" => array(
 		"FirstVersion" => "0.5",

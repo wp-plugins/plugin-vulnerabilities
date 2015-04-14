@@ -34,6 +34,15 @@ $plugin_vulnerabilities["watu"] = array(
 	),
 );
 
+$plugin_vulnerabilities["website-contact-form-with-file-upload"] = array(
+	"1" => array(
+		"FirstVersion" => "1.1",
+		"LastVersion" => "1.3.4",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "http://www.homelab.it/index.php/2015/04/12/wordpress-n-media-website-contact-form-shell-upload/"
+	),
+);
+
 $plugin_vulnerabilities["woocommerce"] = array(
 	"1" => array(
 		"FirstVersion" => "2.1.0",
@@ -193,6 +202,15 @@ $plugin_vulnerabilities["wp-dbmanager"] = array(
 		"LastVersion" => "2.74",
 		"TypeOfVulnerability" => "information disclosure",
 		"URL" => "https://github.com/wpscanteam/wpscan/issues/422"
+	),
+);
+
+$plugin_vulnerabilities["wp-easy-slideshow"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.1",
+		"LastVersion" => "1.0.3",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
+		"URL" => "http://www.exploit-db.com/exploits/36612/"
 	),
 );
 

@@ -122,4 +122,10 @@ $plugin_vulnerabilities["duplicator"] = array(
 		"TypeOfVulnerability" => "authenticated backup download",
 		"URL" => "http://security.szurek.pl/duplicator-058-privilege-escalation.html"
 	),
+	"2" => array(
+		"FirstVersion" => "0.5.0",
+		"LastVersion" => "0.5.14",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/SQL injection",
+		"URL" => "http://www.homelab.it/index.php/2015/04/10/wordpress-duplicator-0-5-14-sql-injection-vulnerability/"
+	),
 );

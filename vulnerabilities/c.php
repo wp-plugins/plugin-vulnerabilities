@@ -164,6 +164,12 @@ $plugin_vulnerabilities["contus-video-gallery"] = array(
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://www.homelab.it/index.php/2015/02/11/wordpress-video-gallery-2-7-sql-injection/"
 	),
+	"3" => array(
+		"FirstVersion" => "2.7",
+		"LastVersion" => "2.8",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
+		"URL" => "http://www.exploit-db.com/exploits/36610/"
+	),
 );
 
 $plugin_vulnerabilities["cp-multi-view-calendar"] = array(

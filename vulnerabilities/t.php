@@ -22,6 +22,15 @@ $plugin_vulnerabilities["tinymce-thumbnail-gallery"] = array(
 	),
 );
 
+$plugin_vulnerabilities["trafficanalyzer"] = array(
+	"1" => array(
+		"FirstVersion" => "1.8.0",
+		"LastVersion" => "3.4.2",
+		"TypeOfVulnerability" => "SQL Injection",
+		"URL" => "http://www.exploit-db.com/exploits/36677/"
+	),
+);
+
 $plugin_vulnerabilities["tweetscribe"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
