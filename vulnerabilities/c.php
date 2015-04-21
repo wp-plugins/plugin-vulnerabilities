@@ -64,6 +64,21 @@ $plugin_vulnerabilities["cip4-folder-download-widget"] = array(
 	),
 );
 
+$plugin_vulnerabilities["citizen-space"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1",
+		"LastVersion" => "1.1",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://security.dxw.com/advisories/reflected-xss-in-citizen-space-allows-attackers-to-view-sensitive-information-of-the-attackers-choosing/"
+	),
+	"2" => array(
+		"FirstVersion" => "0.1",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://security.dxw.com/advisories/xss-via-csrf-in-citizen-space-1-0/"
+	),
+);
+
 $plugin_vulnerabilities["clean-and-simple-contact-form-by-meg-nicholas"] = array(
 	"1" => array(
 		"FirstVersion" => "4.1.3",
@@ -151,6 +166,15 @@ $plugin_vulnerabilities["contact-form-to-email"] = array(
 	),
 );
 
+$plugin_vulnerabilities["content-slide"] = array(
+	"1" => array(
+		"FirstVersion" => "1.3",
+		"LastVersion" => "1.4.2",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://security.dxw.com/advisories/csrf-and-stored-xss-in-wordpress-content-slide-allow-an-attacker-to-have-full-admin-privileges/"
+	),
+);
+
 $plugin_vulnerabilities["contus-video-gallery"] = array(
 	"1" => array(
 		"FirstVersion" => "2.2",
@@ -169,6 +193,12 @@ $plugin_vulnerabilities["contus-video-gallery"] = array(
 		"LastVersion" => "2.8",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
 		"URL" => "http://www.exploit-db.com/exploits/36610/"
+	),
+	"4" => array(
+		"FirstVersion" => "2.7",
+		"LastVersion" => "2.8",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/SQL injection",
+		"URL" => "http://www.homelab.it/index.php/2015/04/13/wordpress-video-gallery-2-8-sql-injection-vulnerability/"
 	),
 );
 

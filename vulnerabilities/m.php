@@ -38,6 +38,24 @@ $plugin_vulnerabilities["miwoftp"] = array(
 		"TypeOfVulnerability" => "arbitrary file viewing",
 		"URL" => "https://research.g0blin.co.uk/g0blin-00038/"
 	),
+	"2" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.0.6",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/file deletion",
+		"URL" => "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2015-5240.php"
+	),
+	"3" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.0.6",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/arbitrary file upload",
+		"URL" => "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2015-5242.php"
+	),
+	"4" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.0.5",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://www.zeroscience.mk/en/vulnerabilities/ZSL-2015-5241.php"
+	),
 );
 
 $plugin_vulnerabilities["mm-forms-community"] = array(

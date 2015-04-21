@@ -304,6 +304,24 @@ $plugin_vulnerabilities["wp-media-cleaner"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wp-mobile-edition"] = array(
+	"1" => array(
+		"FirstVersion" => "2.0",
+		"LastVersion" => "2.2.7",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "https://www.exploit-db.com/exploits/36733/"
+	),
+);
+
+$plugin_vulnerabilities["wp-mon"] = array(
+	"1" => array(
+		"FirstVersion" => "0.5",
+		"LastVersion" => "0.5.1",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://packetstormsecurity.com/files/131502/WordPress-WP-Mon-Arbitrary-File-Download.html"
+	),
+);
+
 $plugin_vulnerabilities["wp-photo-album-plus"] = array(
 	"1" => array(
 		"FirstVersion" => "2.4.3",

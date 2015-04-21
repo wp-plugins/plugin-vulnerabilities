@@ -49,7 +49,7 @@ $plugin_vulnerabilities["showbiz"] = array(
 $plugin_vulnerabilities["simple-ads-manager"] = array(
 	"1" => array(
 		"FirstVersion" => "2.0.73",
-		"LastVersion" => "2.6.96",
+		"LastVersion" => "2.6.97",
 		"TypeOfVulnerability" => "information disclosure",
 		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html?language=en"
 	),
@@ -156,7 +156,6 @@ $plugin_vulnerabilities["slider-image"] = array(
 		"URL" => "https://www.htbridge.com/advisory/HTB23250"
 	),
 );
-
 
 $plugin_vulnerabilities["sliding-recent-posts"] = array(
 	"1" => array(
