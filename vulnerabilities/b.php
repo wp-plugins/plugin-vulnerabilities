@@ -48,3 +48,12 @@ $plugin_vulnerabilities["bp-group-documents"] = array(
 		"URL" => "https://security.dxw.com/advisories/stored-xss-vulnerability-in-bp-group-documents-1-2-1/"
 	),
 );
+
+$plugin_vulnerabilities["buddypress-media"] = array(
+	"1" => array(
+		"FirstVersion" => "3.7.9",
+		"LastVersion" => "3.7.39",
+		"TypeOfVulnerability" => "authenticated SQL injection",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00046/"
+	),
+);

@@ -121,6 +121,15 @@ $plugin_vulnerabilities["coming-soon-maintenance-mode-ready"] = array(
 	),
 );
 
+$plugin_vulnerabilities["community-events"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.3.5",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "https://www.exploit-db.com/exploits/36805/"
+	),
+);
+
 $plugin_vulnerabilities["contact-form-7-to-database-extension"] = array(
 	"1" => array(
 		"FirstVersion" => "2.7.2",
@@ -226,6 +235,15 @@ $plugin_vulnerabilities["cp-multi-view-calendar"] = array(
 		"LastVersion" => "1.1.4",
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://www.exploit-db.com/exploits/36243/"
+	),
+);
+
+$plugin_vulnerabilities["crayon-syntax-highlighter"] = array(
+	"1" => array(
+		"FirstVersion" => "2.0.0",
+		"LastVersion" => "2.6.10",
+		"TypeOfVulnerability" => "authenticated defacement",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00044/"
 	),
 );
 

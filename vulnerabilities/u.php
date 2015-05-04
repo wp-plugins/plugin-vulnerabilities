@@ -4,6 +4,21 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["ultimate-product-catalogue"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "3.1.1",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "http://blog.seeweb.it/wordpress-ultimate-product-catalogue-vulnerability/"
+	),
+	"2" => array(
+		"FirstVersion" => "2.1.2",
+		"LastVersion" => "3.1.2",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "https://www.exploit-db.com/exploits/36823/"
+	),
+);
+
 $plugin_vulnerabilities["unconfirmed"] = array(
 	"1" => array(
 		"FirstVersion" => "1.2.3",
@@ -21,7 +36,6 @@ $plugin_vulnerabilities["uploader"] = array(
 		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-uploader-arbitrary-file-upload-vulnerability.html"
 	),
 );
-
 
 $plugin_vulnerabilities["user-domain-whitelist"] = array(
 	"1" => array(

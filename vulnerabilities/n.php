@@ -13,6 +13,15 @@ $plugin_vulnerabilities["newsletter"] = array(
 	),
 );
 
+$plugin_vulnerabilities["nex-forms-express-wp-form-builder"] = array(
+	"1" => array(
+		"FirstVersion" => "3.0",
+		"LastVersion" => "3.0",
+		"TypeOfVulnerability" => "http://www.homelab.it/index.php/2015/04/21/wordpress-nex-forms-sqli/",
+		"URL" => "SQL injection"
+	),
+);
+
 $plugin_vulnerabilities["nextend-facebook-connect"] = array(
 	"1" => array(
 		"FirstVersion" => "1.3.6",

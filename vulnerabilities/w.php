@@ -43,6 +43,15 @@ $plugin_vulnerabilities["website-contact-form-with-file-upload"] = array(
 	),
 );
 
+$plugin_vulnerabilities["white-label-cms"] = array(
+	"1" => array(
+		"FirstVersion" => "1.5",
+		"LastVersion" => "1.5.2",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00047/"
+	),
+);
+
 $plugin_vulnerabilities["woocommerce"] = array(
 	"1" => array(
 		"FirstVersion" => "2.1.0",

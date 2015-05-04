@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["mashsharer"] = array(
+	"1" => array(
+		"FirstVersion" => "2.1.7",
+		"LastVersion" => "2.3.0",
+		"TypeOfVulnerability" => "information disclosure",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00045/"
+	),
+);
+
 $plugin_vulnerabilities["maxbuttons"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
