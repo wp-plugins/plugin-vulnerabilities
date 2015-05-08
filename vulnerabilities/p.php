@@ -86,6 +86,18 @@ $plugin_vulnerabilities["pie-register"] = array(
 		"TypeOfVulnerability" => "privilege escalation",
 		"URL" => "http://security.szurek.pl/pie-register-2013-privilege-escalation.html"
 	),
+	"2" => array(
+		"FirstVersion" => "2.0.8",
+		"LastVersion" => "2.0.15",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00040/"
+	),
+	"3" => array(
+		"FirstVersion" => "2.0.1",
+		"LastVersion" => "2.0.15",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00041/"
+	),
 );
 
 $plugin_vulnerabilities["pixabay-images"] = array(

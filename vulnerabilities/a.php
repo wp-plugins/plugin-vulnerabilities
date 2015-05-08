@@ -13,13 +13,30 @@ $plugin_vulnerabilities["ab-google-map-travel"] = array(
 	),
 );
 
-
 $plugin_vulnerabilities["acobot"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
 		"LastVersion" => "2.0",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/130306/WordPress-Acobot-Live-Chat-And-Contact-Form-2.0-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["ad-buttons"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "2.3.1",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/131823/WordPress-Ad-Buttons-2.3.1-CSRF-Cross-Site-Scripting.html"
+	),
+);
+
+$plugin_vulnerabilities["ad-inserter"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.5.2",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/131798/WordPress-Ad-Inserter-1.5.2-CSRF-XSS.html"
 	),
 );
 

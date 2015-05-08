@@ -19,6 +19,15 @@ $plugin_vulnerabilities["ultimate-product-catalogue"] = array(
 	),
 );
 
+$plugin_vulnerabilities["ultimate-profile-builder"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "2.3.3",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/131815/WordPress-Ultimate-Profile-Builder-2.3.3-CSRF-Cross-Site-Scripting.html"
+	),
+);
+
 $plugin_vulnerabilities["unconfirmed"] = array(
 	"1" => array(
 		"FirstVersion" => "1.2.3",

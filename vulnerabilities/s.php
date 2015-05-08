@@ -49,21 +49,21 @@ $plugin_vulnerabilities["showbiz"] = array(
 $plugin_vulnerabilities["simple-ads-manager"] = array(
 	"1" => array(
 		"FirstVersion" => "2.0.73",
-		"LastVersion" => "2.6.97",
+		"LastVersion" => "2.7.101",
 		"TypeOfVulnerability" => "information disclosure",
-		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html?language=en"
+		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html"
 	),
 	"2" => array(
 		"FirstVersion" => "2.3.85",
 		"LastVersion" => "2.5.94",
 		"TypeOfVulnerability" => "arbitrary file upload",
-		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html?language=en"
+		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html"
 	),
 	"3" => array(
 		"FirstVersion" => "2.0.73",
 		"LastVersion" => "2.6.96",
 		"TypeOfVulnerability" => "SQL injection",
-		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html?language=en"
+		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html"
 	),
 );
 

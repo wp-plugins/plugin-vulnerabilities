@@ -88,6 +88,15 @@ $plugin_vulnerabilities["clean-and-simple-contact-form-by-meg-nicholas"] = array
 	),
 );
 
+$plugin_vulnerabilities["clickbank-ads-clickbank-widget"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.7",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/131814/WordPress-ClickBank-Ads-1.7-CSRF-Cross-Site-Scripting.html"
+	),
+);
+
 $plugin_vulnerabilities["cm-download-manager"] = array(
 	"1" => array(
 		"FirstVersion" => "1.4.0",

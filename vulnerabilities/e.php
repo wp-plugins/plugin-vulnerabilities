@@ -49,6 +49,15 @@ $plugin_vulnerabilities["email"] = array(
 	),
 );
 
+$plugin_vulnerabilities["embed-articles"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "7.0.3",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/131797/WordPress-Embed-Articles-7.0.3-CSRF-XSS.html"
+	),
+);
+
 $plugin_vulnerabilities["ewww-image-optimizer"] = array(
 	"1" => array(
 		"FirstVersion" => "1.4.3",
