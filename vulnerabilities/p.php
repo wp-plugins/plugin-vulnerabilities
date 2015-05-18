@@ -88,14 +88,14 @@ $plugin_vulnerabilities["pie-register"] = array(
 	),
 	"2" => array(
 		"FirstVersion" => "2.0.8",
-		"LastVersion" => "2.0.15",
+		"LastVersion" => "2.0.16",
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "https://research.g0blin.co.uk/g0blin-00040/"
 	),
 	"3" => array(
 		"FirstVersion" => "2.0.1",
 		"LastVersion" => "2.0.15",
-		"TypeOfVulnerability" => "SQL injection",
+		"TypeOfVulnerability" => "privilege escalation",
 		"URL" => "https://research.g0blin.co.uk/g0blin-00041/"
 	),
 );

@@ -58,6 +58,15 @@ $plugin_vulnerabilities["embed-articles"] = array(
 	),
 );
 
+$plugin_vulnerabilities["eshop"] = array(
+	"1" => array(
+		"FirstVersion" => "2.5.0",
+		"LastVersion" => "6.3.11",
+		"TypeOfVulnerability" => "full path disclosure",
+		"URL" => "https://www.htbridge.com/advisory/HTB23255"
+	),
+);
+
 $plugin_vulnerabilities["ewww-image-optimizer"] = array(
 	"1" => array(
 		"FirstVersion" => "1.4.3",

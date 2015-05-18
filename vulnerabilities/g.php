@@ -112,6 +112,15 @@ $plugin_vulnerabilities["gravity-file-ajax-upload-free"] = array(
 	),
 );
 
+$plugin_vulnerabilities["gregs-high-performance-seo"] = array(
+	"1" => array(
+		"FirstVersion" => "1.3.5",
+		"LastVersion" => "1.6.1",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://security.szurek.pl/gregs-high-performance-seo-161-reflected-xss.html"
+	),
+);
+
 $plugin_vulnerabilities["gslideshow"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",

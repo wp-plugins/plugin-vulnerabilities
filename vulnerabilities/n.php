@@ -7,7 +7,7 @@ if ( !function_exists( 'add_action' ) ) {
 $plugin_vulnerabilities["newsletter"] = array(
 	"1" => array(
 		"FirstVersion" => "3.0.0",
-		"LastVersion" => "3.7.5",
+		"LastVersion" => "3.7.9",
 		"TypeOfVulnerability" => "open redirect",
 		"URL" => "https://research.g0blin.co.uk/g0blin-00039/"
 	),

@@ -31,6 +31,15 @@ $plugin_vulnerabilities["sexy-contact-form"] = array(
 	),
 );
 
+$plugin_vulnerabilities["shortcodes-ultimate"] = array(
+	"1" => array(
+		"FirstVersion" => "4.4.0",
+		"LastVersion" => "4.9.3",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://security.szurek.pl/shortcodes-ultimate-493-reflected-xss.html"
+	),
+);
+
 $plugin_vulnerabilities["showbiz"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",
@@ -51,19 +60,19 @@ $plugin_vulnerabilities["simple-ads-manager"] = array(
 		"FirstVersion" => "2.0.73",
 		"LastVersion" => "2.7.101",
 		"TypeOfVulnerability" => "information disclosure",
-		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html"
+		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html?language=en"
 	),
 	"2" => array(
 		"FirstVersion" => "2.3.85",
 		"LastVersion" => "2.5.94",
 		"TypeOfVulnerability" => "arbitrary file upload",
-		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html"
+		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html?language=enl"
 	),
 	"3" => array(
 		"FirstVersion" => "2.0.73",
 		"LastVersion" => "2.6.96",
 		"TypeOfVulnerability" => "SQL injection",
-		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html"
+		"URL" => "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html?language=en"
 	),
 );
 

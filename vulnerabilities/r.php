@@ -87,3 +87,12 @@ $plugin_vulnerabilities["rich-counter"] = array(
 		"URL" => "http://www.myblog.att4ck3r.ir/wordpress-rich-counter-plugin-cross-site-scripting/"
 	),
 );
+
+$plugin_vulnerabilities["roomcloud"] = array(
+	"1" => array(
+		"FirstVersion" => "1.1",
+		"LastVersion" => "1.1",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://www.milw00rm.com/exploits/8858"
+	),
+);

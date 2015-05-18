@@ -17,6 +17,18 @@ $plugin_vulnerabilities["ultimate-product-catalogue"] = array(
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "https://www.exploit-db.com/exploits/36823/"
 	),
+	"3" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "3.1.3",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://www.exploit-db.com/exploits/36907/"
+	),
+	"4" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "3.1.3",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/file upload",
+		"URL" => "https://www.exploit-db.com/exploits/36907/"
+	),
 );
 
 $plugin_vulnerabilities["ultimate-profile-builder"] = array(

@@ -22,6 +22,57 @@ $plugin_vulnerabilities["maxbuttons"] = array(
 	),
 );
 
+$plugin_vulnerabilities["media-file-manager-advanced"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.1.5",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://research.evex.pw/?vuln=16"
+	),
+	"2" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.1.5",
+		"TypeOfVulnerability" => "authenticated SQL injection",
+		"URL" => "http://research.evex.pw/?vuln=16"
+	),
+	"3" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.1.5",
+		"TypeOfVulnerability" => "authenticated information disclosure",
+		"URL" => "http://research.evex.pw/?vuln=16"
+	),
+	"4" => array(
+		"FirstVersion" => "1.0.2",
+		"LastVersion" => "1.1.5",
+		"TypeOfVulnerability" => "authenticated file deletion",
+		"URL" => ""
+	),
+	"5" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.1.5",
+		"TypeOfVulnerability" => "authenticated file movement",
+		"URL" => "http://research.evex.pw/?vuln=16"
+	),
+	"6" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.1.5",
+		"TypeOfVulnerability" => "authenticated file rename",
+		"URL" => "http://research.evex.pw/?vuln=16"
+	),
+	"7" => array(
+		"FirstVersion" => "1.0.1",
+		"LastVersion" => "1.1.5",
+		"TypeOfVulnerability" => "authenticated post deletion",
+		"URL" => "http://research.evex.pw/?vuln=16"
+	),
+	"8" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.1.5",
+		"TypeOfVulnerability" => "authenticated post modification",
+		"URL" => "http://research.evex.pw/?vuln=16"
+	),
+);
+
 $plugin_vulnerabilities["member-approval"] = array(
 	"1" => array(
 		"FirstVersion" => "130625",

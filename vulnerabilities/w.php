@@ -431,6 +431,12 @@ $plugin_vulnerabilities["wp-symposium"] = array(
 		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.homelab.it/index.php/2014/12/11/wordpress-wp-symposium-shell-upload/"
 	),
+	"2" => array(
+		"FirstVersion" => "12.06.16",
+		"LastVersion" => "15.1",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "http://packetstormsecurity.com/files/131801/WordPress-WP-Symposium-15.1-SQL-Injection.html"
+	),
 );
 
 $plugin_vulnerabilities["wp-timed-popup"] = array(

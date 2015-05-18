@@ -182,6 +182,12 @@ $plugin_vulnerabilities["contact-form-to-email"] = array(
 		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
 		"URL" => "http://security.szurek.pl/contact-form-to-email-101-xss.html"
 	),
+	"2" => array(
+		"FirstVersion" => "1.01",
+		"LastVersion" => "1.1.4",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://packetstormsecurity.com/files/131901/WordPress-Contact-Form-To-Email-Plugin-CSRF-XSS.html"
+	),
 );
 
 $plugin_vulnerabilities["content-slide"] = array(
