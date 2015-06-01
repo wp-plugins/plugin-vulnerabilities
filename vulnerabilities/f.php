@@ -40,6 +40,15 @@ $plugin_vulnerabilities["filedownload"] = array(
 	),
 );
 
+$plugin_vulnerabilities["formidable"] = array(
+	"1" => array(
+		"FirstVersion" => "1.07.5",
+		"LastVersion" => "2.0.07",
+		"TypeOfVulnerability" => "information disclosure",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00049/"
+	),
+);
+
 $plugin_vulnerabilities["fourteen-extended"] = array(
 	"1" => array(
 		"FirstVersion" => "1.2.1",
@@ -55,6 +64,15 @@ $plugin_vulnerabilities["foxypress"] = array(
 		"LastVersion" => "0.4.2.1",
 		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-foxypress-shell-upload-vulnerability.html"
+	),
+);
+
+$plugin_vulnerabilities["free-counter"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.5",
+		"LastVersion" => "1.1",
+		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"URL" => "https://www.exploit-db.com/exploits/37132/"
 	),
 );
 

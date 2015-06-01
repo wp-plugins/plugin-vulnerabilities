@@ -103,6 +103,15 @@ $plugin_vulnerabilities["google-mp3-audio-player"] = array(
 	),
 );
 
+$plugin_vulnerabilities["gotmls"] = array(
+	"1" => array(
+		"FirstVersion" => "1.2.03.23",
+		"LastVersion" => "4.15.22",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00053/"
+	),
+);
+
 $plugin_vulnerabilities["gravity-file-ajax-upload-free"] = array(
 	"1" => array(
 		"FirstVersion" => "alpha 1.1",

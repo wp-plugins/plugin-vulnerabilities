@@ -250,6 +250,15 @@ $plugin_vulnerabilities["wp-error-fix"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wp-fast-cache"] = array(
+	"1" => array(
+		"FirstVersion" => "1.1",
+		"LastVersion" => "1.4",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "http://www.homelab.it/index.php/2015/05/27/wp-fast-cache-csrf-xss/"
+	),
+);
+
 $plugin_vulnerabilities["wp-fb-autoconnect"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.0",

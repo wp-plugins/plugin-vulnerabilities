@@ -45,7 +45,7 @@ $plugin_vulnerabilities["media-file-manager-advanced"] = array(
 		"FirstVersion" => "1.0.2",
 		"LastVersion" => "1.1.5",
 		"TypeOfVulnerability" => "authenticated file deletion",
-		"URL" => ""
+		"URL" => "http://research.evex.pw/?vuln=16"
 	),
 	"5" => array(
 		"FirstVersion" => "1.0.0",

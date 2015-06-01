@@ -40,6 +40,15 @@ $plugin_vulnerabilities["ultimate-profile-builder"] = array(
 	),
 );
 
+$plugin_vulnerabilities["ultimate-social-media-icons"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.1.1.11",
+		"TypeOfVulnerability" => "authenticated persistent cross-site scripting (XSS)",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00052/"
+	),
+);
+
 $plugin_vulnerabilities["unconfirmed"] = array(
 	"1" => array(
 		"FirstVersion" => "1.2.3",

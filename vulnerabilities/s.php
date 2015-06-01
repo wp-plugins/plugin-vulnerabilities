@@ -193,6 +193,15 @@ $plugin_vulnerabilities["smart-forms"] = array(
 	),
 );
 
+$plugin_vulnerabilities["social-networks-auto-poster-facebook-twitter-g"] = array(
+	"1" => array(
+		"FirstVersion" => "1.5.5",
+		"LastVersion" => "3.4.17",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00055/"
+	),
+);
+
 $plugin_vulnerabilities["sp-client-document-manager"] = array(
 	"1" => array(
 		"FirstVersion" => "1.2.7",
@@ -238,9 +247,18 @@ $plugin_vulnerabilities["spnbabble"] = array(
 $plugin_vulnerabilities["store-locator"] = array(
 	"1" => array(
 		"FirstVersion" => "2.11",
-		"LastVersion" => "3.3.1",
+		"LastVersion" => "3.33.1",
 		"TypeOfVulnerability" => "SQL injection",
-		"URL" => ""
+		"URL" => "https://research.g0blin.co.uk/g0blin-00031/"
+	),
+);
+
+$plugin_vulnerabilities["store-locator-le"] = array(
+	"1" => array(
+		"FirstVersion" => "2.6",
+		"LastVersion" => "4.2.56",
+		"TypeOfVulnerability" => "unrestricted email sending",
+		"URL" => "http://security.szurek.pl/store-locator-plus-4223-email-injection.html"
 	),
 );
 
