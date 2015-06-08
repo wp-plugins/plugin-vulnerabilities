@@ -15,7 +15,7 @@ This plugin checks the plugins you have installed against a list of verified sec
 
 The plugin also can be set to send out an email to the webmaster if a vulnerability is in the installed version of a plugin, for use if you update plugins using our [Automatic Plugin Updates plugin](https://wordpress.org/plugins/automatic-plugin-updates/) or some other method outside of the Installed Plugins page. 
 
-This plugin's most important use is to protect against websites being hacked, but it is also helpful when working to determine how a website was hacked during the cleanup process of the hacked website. If your website has been hacked we can [help you to clean and secure it](https://www.whitefirdesign.com/services/hacked-wordpress-website-cleanup.html?pk_campaign=Plugin-Vulnerabilities).
+This plugin's most important use is to protect against websites being hacked, but it is also helpful when working to determine how a website was hacked during the cleanup process of the hacked website. If your website has been hacked we can [clean and secure the website for you](https://www.whitefirdesign.com/services/hacked-wordpress-website-cleanup.html?pk_campaign=Plugin-Vulnerabilities).
 
 Because we verify each vulnerability before including it, not all known vulnerabilities are included, but we are increasing the number of included vulnerabilities on a regular basis.
 
@@ -37,8 +37,8 @@ If you want to let us know of a missing vulnerability or if we need to correct s
 >  * [dxwsecurity](https://security.dxw.com/advisories/): 31 vulnerabilities
 >  * [Kacper Szurek](http://security.szurek.pl/): 31 vulnerabilities
 >  * [g0blin Research](https://research.g0blin.co.uk/): 23 vulnerabilities
->  * [High-Tech Bridge](https://www.htbridge.com/advisory/): 13 vulnerabilities
 >  * [HomeLab IT](http://www.homelab.it/): 14 vulnerabilities
+>  * [High-Tech Bridge](https://www.htbridge.com/advisory/): 13 vulnerabilities
 
 
 == Installation ==
@@ -56,6 +56,9 @@ If you want to let us know of a missing vulnerability or if we need to correct s
 2. Full Listing of Vulnerabilities That Have Existed in Installed Plugins
 
 == Changelog ==
+
+= 1.0.27 =
+* Added 8 vulnerabilities
 
 = 1.0.26 =
 * Added 7 vulnerabilities

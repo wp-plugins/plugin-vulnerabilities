@@ -7,9 +7,24 @@ if ( !function_exists( 'add_action' ) ) {
 $plugin_vulnerabilities["newsletter"] = array(
 	"1" => array(
 		"FirstVersion" => "3.0.0",
-		"LastVersion" => "3.8.0",
+		"LastVersion" => "3.8.1",
 		"TypeOfVulnerability" => "open redirect",
 		"URL" => "https://research.g0blin.co.uk/g0blin-00039/"
+	),
+);
+
+$plugin_vulnerabilities["newstatpress"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1.0",
+		"LastVersion" => "1.0.0",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://packetstormsecurity.com/files/132038/WordPress-NewStatPress-0.9.8-Cross-Site-Scripting-SQL-Injection.html"
+	),
+	"2" => array(
+		"FirstVersion" => "0.1.0",
+		"LastVersion" => "1.0.0",
+		"TypeOfVulnerability" => "cross-site request forgery/SQL injection",
+		"URL" => "https://packetstormsecurity.com/files/132038/WordPress-NewStatPress-0.9.8-Cross-Site-Scripting-SQL-Injection.html"
 	),
 );
 

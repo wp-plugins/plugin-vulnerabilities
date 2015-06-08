@@ -22,6 +22,15 @@ $plugin_vulnerabilities["really-easy-slider"] = array(
 	),
 );
 
+$plugin_vulnerabilities["really-simple-guest-post"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.1",
+		"LastVersion" => "1.0.6",
+		"TypeOfVulnerability" => "local file inclusion (LFI)",
+		"URL" => "https://www.exploit-db.com/exploits/37209/"
+	),
+);
+
 $plugin_vulnerabilities["redirection-page"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.2",

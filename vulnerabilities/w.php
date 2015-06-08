@@ -41,6 +41,12 @@ $plugin_vulnerabilities["website-contact-form-with-file-upload"] = array(
 		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.homelab.it/index.php/2015/04/12/wordpress-n-media-website-contact-form-shell-upload/"
 	),
+	"2" => array(
+		"FirstVersion" => "1.1",
+		"LastVersion" => "1.5",
+		"TypeOfVulnerability" => "local file inclusion (LFI)",
+		"URL" => "http://www.milw00rm.com/exploits/9052"
+	),
 );
 
 $plugin_vulnerabilities["white-label-cms"] = array(

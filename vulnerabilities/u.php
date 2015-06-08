@@ -83,4 +83,10 @@ $plugin_vulnerabilities["users-ultra"] = array(
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://packetstormsecurity.com/files/128473/WordPress-Users-Ultra-1.3.37-SQL-Injection.html"
 	),
+	"2" => array(
+		"FirstVersion" => "1.0.11",
+		"LastVersion" => "1.5.15",
+		"TypeOfVulnerability" => "authenticated SQL injection",
+		"URL" => "https://packetstormsecurity.com/files/132181/WordPress-Users-Ultra-1.5.15-SQL-Injection.html"
+	),
 );

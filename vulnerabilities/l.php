@@ -4,12 +4,36 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["landing-pages"] = array(
+	"1" => array(
+		"FirstVersion" => "1.3.5",
+		"LastVersion" => "1.8.5",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://packetstormsecurity.com/files/132037/WordPress-Landing-Pages-1.8.4-Cross-Site-Scripting-SQL-Injection.html"
+	),
+	"2" => array(
+		"FirstVersion" => "1.0.8.6",
+		"LastVersion" => "1.8.4",
+		"TypeOfVulnerability" => "authenticated SQL injection",
+		"URL" => "https://packetstormsecurity.com/files/132037/WordPress-Landing-Pages-1.8.4-Cross-Site-Scripting-SQL-Injection.html"
+	),
+);
+
 $plugin_vulnerabilities["leads"] = array(
 	"1" => array(
 		"FirstVersion" => "1.5.2",
 		"LastVersion" => "1.6.2",
 		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
 		"URL" => "https://research.g0blin.co.uk/g0blin-00042/"
+	),
+);
+
+$plugin_vulnerabilities["leaguemanager"] = array(
+	"1" => array(
+		"FirstVersion" => "2.9",
+		"LastVersion" => "3.9.1.1",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "https://www.exploit-db.com/exploits/37182/"
 	),
 );
 
