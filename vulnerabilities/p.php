@@ -22,6 +22,15 @@ $plugin_vulnerabilities["paid-memberships-pro"] = array(
 	),
 );
 
+$plugin_vulnerabilities["paypal-currency-converter-basic-for-woocommerce"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.3",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "https://www.exploit-db.com/exploits/37253/"
+	),
+);
+
 $plugin_vulnerabilities["photo-gallery"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.1",

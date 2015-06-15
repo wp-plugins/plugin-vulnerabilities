@@ -301,6 +301,15 @@ $plugin_vulnerabilities["wp-html-sitemap"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wp-instance-rename"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=127"
+	),
+);
+
 $plugin_vulnerabilities["wp-limit-posts-automatically"] = array(
 	"1" => array(
 		"FirstVersion" => "0.7",

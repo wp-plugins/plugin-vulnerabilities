@@ -13,6 +13,15 @@ $plugin_vulnerabilities["hd-webplayer"] = array(
 	),
 );
 
+$plugin_vulnerabilities["history-collection"] = array(
+	"1" => array(
+		"FirstVersion" => "1.1.",
+		"LastVersion" => "1.1.1",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "https://www.exploit-db.com/exploits/37254/"
+	),
+);
+
 $plugin_vulnerabilities["html5-mp3-player-with-playlist"] = array(
 	"1" => array(
 		"FirstVersion" => "2.7.0",

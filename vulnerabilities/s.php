@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["se-html5-album-audio-player"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.8",
+		"LastVersion" => "1.1.0",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "https://packetstormsecurity.com/files/132266/WordPress-SE-HTML5-Album-Audio-Player-1.1.0-Directory-Traversal.html"
+	),
+);
+
 $plugin_vulnerabilities["sell-downloads"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.1",

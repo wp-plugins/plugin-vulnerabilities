@@ -49,6 +49,15 @@ $plugin_vulnerabilities["ad-minister"] = array(
 	),
 );
 
+$plugin_vulnerabilities["addthis"] = array(
+	"1" => array(
+		"FirstVersion" => "4.0.2",
+		"LastVersion" => "4.0.7",
+		"TypeOfVulnerability" => "authenticated persistent cross-site scripting (XSS)",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00043/"
+	),
+);
+
 $plugin_vulnerabilities["advanced-custom-fields"] = array(
 	"1" => array(
 		"FirstVersion" => "3.5.0",
@@ -152,5 +161,14 @@ $plugin_vulnerabilities["asset-manager"] = array(
 		"LastVersion" => "1.0",
 		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.exploit-db.com/exploits/18993/"
+	),
+);
+
+$plugin_vulnerabilities["aviary-image-editor-add-on-for-gravity-forms"] = array(
+	"1" => array(
+		"FirstVersion" => "2.0",
+		"LastVersion" => "3.0 (Beta r5)",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=125"
 	),
 );

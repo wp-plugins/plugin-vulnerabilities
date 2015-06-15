@@ -7,7 +7,7 @@ if ( !function_exists( 'add_action' ) ) {
 $plugin_vulnerabilities["landing-pages"] = array(
 	"1" => array(
 		"FirstVersion" => "1.3.5",
-		"LastVersion" => "1.8.5",
+		"LastVersion" => "1.8.6",
 		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
 		"URL" => "https://packetstormsecurity.com/files/132037/WordPress-Landing-Pages-1.8.4-Cross-Site-Scripting-SQL-Injection.html"
 	),
