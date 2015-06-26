@@ -45,7 +45,7 @@ $plugin_vulnerabilities["email"] = array(
 		"FirstVersion" => "0.1",
 		"LastVersion" => "1.1",
 		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
-		"URL" => "http://en.1337day.com/exploit/23067"
+		"URL" => "http://0day.today/exploit/23067"
 	),
 );
 
@@ -55,6 +55,15 @@ $plugin_vulnerabilities["embed-articles"] = array(
 		"LastVersion" => "7.0.3",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/131797/WordPress-Embed-Articles-7.0.3-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["erident-custom-login-and-dashboard"] = array(
+	"1" => array(
+		"FirstVersion" => "3.0",
+		"LastVersion" => "3.4.1",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00048/"
 	),
 );
 

@@ -51,7 +51,7 @@ $plugin_vulnerabilities["reflex-gallery"] = array(
 		"FirstVersion" => "3.1.3",
 		"LastVersion" => "3.1.3",
 		"TypeOfVulnerability" => "arbitrary file upload",
-		"URL" => "http://en.1337day.com/exploit/23369"
+		"URL" => "http://0day.today/exploit/23369"
 	),
 );
 

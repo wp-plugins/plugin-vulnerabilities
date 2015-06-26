@@ -58,6 +58,15 @@ $plugin_vulnerabilities["addthis"] = array(
 	),
 );
 
+$plugin_vulnerabilities["adsense-click-fraud-monitoring"] = array(
+	"1" => array(
+		"FirstVersion" => "1.2",
+		"LastVersion" => "1.8.6",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=119"
+	),
+);
+
 $plugin_vulnerabilities["advanced-custom-fields"] = array(
 	"1" => array(
 		"FirstVersion" => "3.5.0",

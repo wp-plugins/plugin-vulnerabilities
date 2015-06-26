@@ -51,7 +51,7 @@ $plugin_vulnerabilities["cforms2"] = array(
 		"FirstVersion" => "10.2",
 		"LastVersion" => "14.7",
 		"TypeOfVulnerability" => "arbitrary file upload",
-		"URL" => "http://1337day.com/exploit/23056"
+		"URL" => "http://0day.today/exploit/23056"
 	),
 );
 
@@ -204,7 +204,7 @@ $plugin_vulnerabilities["contus-video-gallery"] = array(
 		"FirstVersion" => "2.2",
 		"LastVersion" => "2.3",
 		"TypeOfVulnerability" => "arbitrary file viewing",
-		"URL" => "http://en.1337day.com/exploit/23207"
+		"URL" => "http://0day.today/exploit/23207"
 	),
 	"2" => array(
 		"FirstVersion" => "2.7",

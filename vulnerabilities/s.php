@@ -168,10 +168,16 @@ $plugin_vulnerabilities["siteorigin-panels"] = array(
 
 $plugin_vulnerabilities["slider-image"] = array(
 	"1" => array(
-		"FirstVersion" => "1.0",
+		"FirstVersion" => "1.6",
 		"LastVersion" => "2.6.8",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/SQL injection",
 		"URL" => "https://www.htbridge.com/advisory/HTB23250"
+	),
+	"1" => array(
+		"FirstVersion" => "1.6",
+		"LastVersion" => "2.7.6",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://www.exploit-db.com/exploits/37361/"
 	),
 );
 

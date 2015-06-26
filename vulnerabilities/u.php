@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["ultimate-member"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.2.997",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00056/"
+	),
+);
+
 $plugin_vulnerabilities["ultimate-product-catalogue"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

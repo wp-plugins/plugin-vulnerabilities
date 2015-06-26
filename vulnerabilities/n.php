@@ -44,6 +44,12 @@ $plugin_vulnerabilities["nextend-facebook-connect"] = array(
 		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
 		"URL" => "http://security.szurek.pl/nextend-facebook-connect-1459-xss.html"
 	),
+	"2" => array(
+		"FirstVersion" => "1.4.4",
+		"LastVersion" => "1.5.4",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://packetstormsecurity.com/files/132425/WordPress-Nextend-Facebook-Connect-1.5.4-Cross-Site-Scripting.html"
+	),
 );
 
 $plugin_vulnerabilities["nextgen-gallery"] = array(

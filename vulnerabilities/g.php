@@ -43,6 +43,15 @@ $plugin_vulnerabilities["geo-mashup"] = array(
 	),
 );
 
+$plugin_vulnerabilities["google-analyticator"] = array(
+	"1" => array(
+		"FirstVersion" => "6.3",
+		"LastVersion" => "6.4.9.3",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
+		"URL" => "https://packetstormsecurity.com/files/132384/WordPress-Google-Analyticator-6.4.9.3-CSRF.html"
+	),
+);
+
 $plugin_vulnerabilities["google-analytics-for-wordpress"] = array(
 	"1" => array(
 		"FirstVersion" => "4.2",

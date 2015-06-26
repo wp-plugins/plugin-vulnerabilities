@@ -87,7 +87,7 @@ $plugin_vulnerabilities["wordfence"] = array(
 		"FirstVersion" => "3.6.1",
 		"LastVersion" => "5.1.2",
 		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
-		"URL" => "http://en.1337day.com/exploit/22819"
+		"URL" => "http://0day.today/exploit/22819"
 	),
 	"2" => array(
 		"FirstVersion" => "1.1",
@@ -243,7 +243,7 @@ $plugin_vulnerabilities["wp-email"] = array(
 		"FirstVersion" => "2.30",
 		"LastVersion" => "2.64",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
-		"URL" => "http://en.1337day.com/exploit/23066"
+		"URL" => "http://0day.today/exploit/23066"
 	),
 );
 
@@ -337,6 +337,15 @@ $plugin_vulnerabilities["wp-media-cleaner"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wp-mobile-detector"] = array(
+	"1" => array(
+		"FirstVersion" => "3.0",
+		"LastVersion" => "3.2",
+		"TypeOfVulnerability" => "authenticated persistent cross-site scripting (XSS)",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00050/"
+	),
+);
+
 $plugin_vulnerabilities["wp-mobile-edition"] = array(
 	"1" => array(
 		"FirstVersion" => "2.0",
@@ -396,7 +405,7 @@ $plugin_vulnerabilities["wp-seo-spy-google"] = array(
 		"FirstVersion" => "3.0",
 		"LastVersion" => "3.1",
 		"TypeOfVulnerability" => "arbitrary file upload",
-		"URL" => "http://1337day.com/exploit/21404"
+		"URL" => "http://0day.today/exploit/21404"
 	),
 );
 
