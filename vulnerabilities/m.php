@@ -22,6 +22,15 @@ $plugin_vulnerabilities["maxbuttons"] = array(
 	),
 );
 
+$plugin_vulnerabilities["mdc-youtube-downloader"] = array(
+	"1" => array(
+		"FirstVersion" => "2.1.0",
+		"LastVersion" => "2.1.0",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=133"
+	),
+);
+
 $plugin_vulnerabilities["media-file-manager-advanced"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.0",

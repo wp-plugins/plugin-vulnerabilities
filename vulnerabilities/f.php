@@ -76,6 +76,15 @@ $plugin_vulnerabilities["free-counter"] = array(
 	),
 );
 
+$plugin_vulnerabilities["front-end-upload"] = array(
+	"1" => array(
+		"FirstVersion" => "0.3.0",
+		"LastVersion" => "0.5.3",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "https://www.exploit-db.com/exploits/19008/"
+	),
+);
+
 $plugin_vulnerabilities["front-file-manager"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",

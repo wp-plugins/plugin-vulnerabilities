@@ -193,6 +193,15 @@ $plugin_vulnerabilities["wp-construction-mode"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wp-copyprotect"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "3.0.0",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00054/"
+	),
+);
+
 $plugin_vulnerabilities["wp-copysafe-pdf"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",
@@ -235,6 +244,15 @@ $plugin_vulnerabilities["wp-easycart"] = array(
 		"LastVersion" => "3.0.8",
 		"TypeOfVulnerability" => "authenticated arbitrary file upload",
 		"URL" => "http://security.szurek.pl/wordpress-shopping-cart-304-unrestricted-file-upload.html"
+	),
+);
+
+$plugin_vulnerabilities["wp-ecommerce-shop-styling"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "2.5",
+		"TypeOfVulnerability" => "authenticated arbitrary file viewing",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=136"
 	),
 );
 
@@ -373,6 +391,45 @@ $plugin_vulnerabilities["wp-photo-album-plus"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wp-powerplaygallery"] = array(
+	"1" => array(
+		"FirstVersion" => "3.3",
+		"LastVersion" => "3.3",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=132"
+	),
+	"2" => array(
+		"FirstVersion" => "3.3",
+		"LastVersion" => "3.3",
+		"TypeOfVulnerability" => "SQL injection",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=132"
+	),
+);
+
+$plugin_vulnerabilities["wp-property"] = array(
+	"1" => array(
+		"FirstVersion" => "1.20.0",
+		"LastVersion" => "1.35.0",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-wp-property-shell-upload-vulnerability.html"
+	),
+);
+
+$plugin_vulnerabilities["wp-rollback"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.2.2",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://blog.secupress.fr/en/wp-rollback-a-too-permissive-plugin-395.html"
+	),
+	"2" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.2.2",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
+		"URL" => "http://blog.secupress.fr/en/wp-rollback-a-too-permissive-plugin-395.html"
+	),
+);
+
 $plugin_vulnerabilities["wp-rss-aggregator"] = array(
 	"1" => array(
 		"FirstVersion" => "4.4",
@@ -386,7 +443,7 @@ $plugin_vulnerabilities["wp-rss-multi-importer"] = array(
 	"1" => array(
 		"FirstVersion" => "3.00.00",
 		"LastVersion" => "3.13",
-		"TypeOfVulnerability" => "cross-site request forgery",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)",
 		"URL" => "https://vexatioustendencies.com/wordpress-plugin-vulnerability-dump-part-1/"
 	),
 );
@@ -454,6 +511,15 @@ $plugin_vulnerabilities["wp-survey-and-poll"] = array(
 		"LastVersion" => "1.1.91",
 		"TypeOfVulnerability" => "SQL injection",
 		"URL" => "http://www.exploit-db.com/exploits/36054/"
+	),
+);
+
+$plugin_vulnerabilities["wp-swimteam"] = array(
+	"1" => array(
+		"FirstVersion" => "1",
+		"LastVersion" => "1.44.1077",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=134"
 	),
 );
 

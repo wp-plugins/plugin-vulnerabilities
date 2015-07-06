@@ -88,6 +88,15 @@ $plugin_vulnerabilities["download-shortcode"] = array(
 	),
 );
 
+$plugin_vulnerabilities["download-zip-attachments"] = array(
+	"1" => array(
+		"FirstVersion" => "1",
+		"LastVersion" => "1",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=129"
+	),
+);
+
 $plugin_vulnerabilities["dp-thumbnail"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

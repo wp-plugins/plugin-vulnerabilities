@@ -175,7 +175,7 @@ $plugin_vulnerabilities["slider-image"] = array(
 	),
 	"1" => array(
 		"FirstVersion" => "1.6",
-		"LastVersion" => "2.7.6",
+		"LastVersion" => "2.7.8",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "https://www.exploit-db.com/exploits/37361/"
 	),
