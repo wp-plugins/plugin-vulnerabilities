@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["s3bubble-amazon-s3-html-5-video-with-adverts"] = array(
+	"1" => array(
+		"FirstVersion" => "0.5",
+		"LastVersion" => "0.7",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "https://packetstormsecurity.com/files/132578/WordPress-S3Bubble-Cloud-Video-With-Adverts-Analytics-Arbitrary-File-Download.html"
+	),
+);
+
 $plugin_vulnerabilities["se-html5-album-audio-player"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.8",
@@ -256,6 +265,15 @@ $plugin_vulnerabilities["spnbabble"] = array(
 		"LastVersion" => "1.4.1",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/129580/WordPress-SPNbabble-1.4.1-CSRF-XSS.html"
+	),
+);
+
+$plugin_vulnerabilities["stageshow"] = array(
+	"1" => array(
+		"FirstVersion" => "5.0",
+		"LastVersion" => "5.0.8",
+		"TypeOfVulnerability" => "open redirect",
+		"URL" => "https://packetstormsecurity.com/files/132553/WordPress-StageShow-5.0.8-Open-Redirect.html"
 	),
 );
 

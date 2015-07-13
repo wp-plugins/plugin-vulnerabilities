@@ -13,6 +13,15 @@ $plugin_vulnerabilities["ab-google-map-travel"] = array(
 	),
 );
 
+$plugin_vulnerabilities["acf-frontend-display"] = array(
+	"1" => array(
+		"FirstVersion" => "",
+		"LastVersion" => "2.0.6",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "https://packetstormsecurity.com/files/132590/WordPress-ACF-Frontend-Display-Shell-Upload.html"
+	),
+);
+
 $plugin_vulnerabilities["acobot"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

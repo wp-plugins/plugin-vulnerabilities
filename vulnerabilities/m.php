@@ -4,6 +4,15 @@ if ( !function_exists( 'add_action' ) ) {
 	exit; 
 }
 
+$plugin_vulnerabilities["mailcwp"] = array(
+	"1" => array(
+		"FirstVersion" => "1.1",
+		"LastVersion" => "1.99",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=138"
+	),
+);
+
 $plugin_vulnerabilities["mashsharer"] = array(
 	"1" => array(
 		"FirstVersion" => "2.1.7",

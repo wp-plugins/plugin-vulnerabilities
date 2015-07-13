@@ -13,6 +13,15 @@ $plugin_vulnerabilities["i-dump-iphone-to-wordpress-photo-uploader"] = array(
 	),
 );
 
+$plugin_vulnerabilities["ibs-mappro"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1",
+		"LastVersion" => "0.6",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=137"
+	),
+);
+
 $plugin_vulnerabilities["image-export"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.0",

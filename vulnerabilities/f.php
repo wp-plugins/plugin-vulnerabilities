@@ -13,6 +13,15 @@ $plugin_vulnerabilities["fancy-gallery"] = array(
 	),
 );
 
+$plugin_vulnerabilities["fast-image-adder"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.1",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=139"
+	),
+);
+
 $plugin_vulnerabilities["fancybox-for-wordpress"] = array(
 	"1" => array(
 		"FirstVersion" => "3.0",
@@ -37,6 +46,21 @@ $plugin_vulnerabilities["filedownload"] = array(
 		"LastVersion" => "0.1",
 		"TypeOfVulnerability" => "arbitrary file viewing",
 		"URL" => "http://www.exploit-db.com/exploits/17858/"
+	),
+	"2" => array(
+		"FirstVersion" => "1.4",
+		"LastVersion" => "1.4",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=140"
+	),
+);
+
+$plugin_vulnerabilities["floating-social-bar"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.1.6",
+		"TypeOfVulnerability" => "persistent cross-site scripting (XSS)",
+		"URL" => "http://security.szurek.pl/floating-social-bar-115-xss.html"
 	),
 );
 

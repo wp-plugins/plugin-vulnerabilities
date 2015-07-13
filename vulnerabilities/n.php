@@ -23,8 +23,20 @@ $plugin_vulnerabilities["newstatpress"] = array(
 	"2" => array(
 		"FirstVersion" => "0.1.0",
 		"LastVersion" => "1.0.0",
-		"TypeOfVulnerability" => "cross-site request forgery/SQL injection",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/SQL injection",
 		"URL" => "https://packetstormsecurity.com/files/132038/WordPress-NewStatPress-0.9.8-Cross-Site-Scripting-SQL-Injection.html"
+	),
+	"3" => array(
+		"FirstVersion" => "0.9.6",
+		"LastVersion" => "1.0.4",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00057/"
+	),
+	"4" => array(
+		"FirstVersion" => "1.0.1",
+		"LastVersion" => "1.0.4",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/SQL injection",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00057/"
 	),
 );
 

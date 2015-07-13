@@ -13,6 +13,15 @@ $plugin_vulnerabilities["yet-another-related-posts-plugin"] = array(
 	),
 );
 
+$plugin_vulnerabilities["yop-poll"] = array(
+	"1" => array(
+		"FirstVersion" => "4.3",
+		"LastVersion" => "5.7.3",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://research.g0blin.co.uk/g0blin-00051/"
+	),
+);
+
 $plugin_vulnerabilities["yurl-retwitt"] = array(
 	"1" => array(
 		"FirstVersion" => "1.3",
