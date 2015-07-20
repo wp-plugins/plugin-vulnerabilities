@@ -103,6 +103,15 @@ $plugin_vulnerabilities["simple-download-button-shortcode"] = array(
 	),
 );
 
+$plugin_vulnerabilities["simple-image-manipulator"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=147"
+	),
+);
+
 $plugin_vulnerabilities["simple-ip-ban"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

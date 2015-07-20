@@ -13,6 +13,15 @@ $plugin_vulnerabilities["calculated-fields-form"] = array(
 	),
 );
 
+$plugin_vulnerabilities["candidate-application-form"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=142"
+	),
+);
+
 $plugin_vulnerabilities["cardoza-facebook-like-box"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0",

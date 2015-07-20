@@ -154,6 +154,15 @@ $plugin_vulnerabilities["wp-all-import"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wp-attachment-export"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1.0",
+		"LastVersion" => "0.2.3",
+		"TypeOfVulnerability" => "information disclosure",
+		"URL" => "https://packetstormsecurity.com/files/132693/WordPress-WP-Attachment-Export-0.2.3-Arbitrary-File-Download.html"
+	),
+);
+
 $plugin_vulnerabilities["wp-backitup"] = array(
 	"1" => array(
 		"FirstVersion" => "1.1.4",
@@ -298,6 +307,15 @@ $plugin_vulnerabilities["wp-filemanager"] = array(
 		"LastVersion" => "1.3.0",
 		"TypeOfVulnerability" => "arbitrary file viewing",
 		"URL" => "http://www.exploit-db.com/exploits/25440/"
+	),
+);
+
+$plugin_vulnerabilities["wp-front-end-repository"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.1",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=141"
 	),
 );
 
@@ -574,6 +592,15 @@ $plugin_vulnerabilities["wp-vipergb"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wpe-indoshipping"] = array(
+	"1" => array(
+		"FirstVersion" => "2.0.0",
+		"LastVersion" => "2.5.0",
+		"TypeOfVulnerability" => "arbitrary file upload",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=145"
+	),
+);
+
 $plugin_vulnerabilities["wpcommenttwit"] = array(
 	"1" => array(
 		"FirstVersion" => "0.1",
@@ -622,6 +649,15 @@ $plugin_vulnerabilities["wpstorecart"] = array(
 		"LastVersion" => "2.5.29",
 		"TypeOfVulnerability" => "arbitrary file upload",
 		"URL" => "http://www.opensyscom.fr/Actualites/wordpress-plugins-wpstorecart-arbitrary-file-upload-vulnerability.html"
+	),
+);
+
+$plugin_vulnerabilities["wptf-image-gallery"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.1",
+		"LastVersion" => "1.0.3",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=148"
 	),
 );
 

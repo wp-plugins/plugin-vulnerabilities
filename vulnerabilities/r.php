@@ -31,6 +31,15 @@ $plugin_vulnerabilities["really-simple-guest-post"] = array(
 	),
 );
 
+$plugin_vulnerabilities["recent-backups"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1",
+		"LastVersion" => "0.7",
+		"TypeOfVulnerability" => "arbitrary file viewing",
+		"URL" => "http://www.vapid.dhs.org/advisory.php?v=144"
+	),
+);
+
 $plugin_vulnerabilities["redirection-page"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.2",
