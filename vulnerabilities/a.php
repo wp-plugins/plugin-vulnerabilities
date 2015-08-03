@@ -166,7 +166,6 @@ $plugin_vulnerabilities["aspose-pdf-exporter"] = array(
 	),
 );
 
-
 $plugin_vulnerabilities["asset-manager"] = array(
 	"1" => array(
 		"FirstVersion" => "0.2",

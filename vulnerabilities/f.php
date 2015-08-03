@@ -55,6 +55,15 @@ $plugin_vulnerabilities["filedownload"] = array(
 	),
 );
 
+$plugin_vulnerabilities["flickr-justified-gallery"] = array(
+	"1" => array(
+		"FirstVersion" => "3.2",
+		"LastVersion" => "3.3.6",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://security.dxw.com/advisories/reflected-xss-in-flickr-justified-gallery-could-allows-unauthenticated-attackers-to-do-almost-anything-an-admin-can-do/"
+	),
+);
+
 $plugin_vulnerabilities["floating-social-bar"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.0",

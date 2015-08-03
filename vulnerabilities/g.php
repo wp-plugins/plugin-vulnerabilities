@@ -25,6 +25,21 @@ $plugin_vulnerabilities["gallery-bank"] = array(
 	),
 );
 
+$plugin_vulnerabilities["gd-bbpress-attachments"] = array(
+	"1" => array(
+		"FirstVersion" => "1.5",
+		"LastVersion" => "2.2",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://security.dxw.com/advisories/reflected-xss-in-gd-bbpress-attachments-allows-an-attacker-to-do-almost-anything-an-admin-can/"
+	),
+	"2" => array(
+		"FirstVersion" => "1.5",
+		"LastVersion" => "2.2",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/local file inclusion (LFI)",
+		"URL" => "https://security.dxw.com/advisories/local-file-include-vulnerability-in-gd-bbpress-attachments-allows-attackers-to-include-arbitrary-php-files/"
+	),
+);
+
 $plugin_vulnerabilities["gd-star-rating"] = array(
 	"1" => array(
 		"FirstVersion" => "0.9.0",

@@ -49,7 +49,6 @@ $plugin_vulnerabilities["twimp-wp"] = array(
 	),
 );
 
-
 $plugin_vulnerabilities["twitget"] = array(
 	"1" => array(
 		"FirstVersion" => "1.1",

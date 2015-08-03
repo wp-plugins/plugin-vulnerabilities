@@ -310,6 +310,15 @@ $plugin_vulnerabilities["wp-filemanager"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wp-flash-player"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.3",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://www.netsparker.com/ns-15-009-multiple-xss-vulnerabilities-identified-in-wp-flash-player/"
+	),
+);
+
 $plugin_vulnerabilities["wp-front-end-repository"] = array(
 	"1" => array(
 		"FirstVersion" => "1.0.0",

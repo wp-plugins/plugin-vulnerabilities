@@ -20,6 +20,12 @@ $plugin_vulnerabilities["paid-memberships-pro"] = array(
 		"TypeOfVulnerability" => "arbitrary file viewing",
 		"URL" => "http://security.szurek.pl/paid-memberships-pro-17142-path-traversal.html"
 	),
+	"2" => array(
+		"FirstVersion" => "1.1.4",
+		"LastVersion" => "1.8.4.2",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://www.htbridge.com/advisory/HTB23264"
+	),
 );
 
 $plugin_vulnerabilities["paypal-currency-converter-basic-for-woocommerce"] = array(
@@ -133,6 +139,15 @@ $plugin_vulnerabilities["player"] = array(
 	),
 );
 
+$plugin_vulnerabilities["wp-plotly"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.0.2",
+		"TypeOfVulnerability" => "authenticated persistent cross-site scripting (XSS)",
+		"URL" => "https://security.dxw.com/advisories/stored-xss-in-plotly-allows-less-privileged-users-to-insert-arbitrary-javascript-into-posts/"
+	),
+);
+
 $plugin_vulnerabilities["plugin-newsletter"] = array(
 	"1" => array(
 		"FirstVersion" => "1.3",
@@ -189,7 +204,6 @@ $plugin_vulnerabilities["powerpress"] = array(
 		"URL" => "https://www.netsparker.com/cve-2015-1385-xss-vulnerability-in-blubrry-powerpress/"
 	),
 );
-
 
 $plugin_vulnerabilities["pwgrandom"] = array(
 	"1" => array(
