@@ -12,3 +12,12 @@ $plugin_vulnerabilities["quick-pagepost-redirect-plugin"] = array(
 		"URL" => "https://security.dxw.com/advisories/csrf-and-stored-xss-in-quick-pagepost-redirect-plugin/"
 	),
 );
+
+$plugin_vulnerabilities["qtranslate"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "2.5.39",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://www.htbridge.com/advisory/HTB23265"
+	),
+);

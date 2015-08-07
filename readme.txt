@@ -57,6 +57,9 @@ If you want to let us know of a missing vulnerability or if we need to correct s
 
 == Changelog ==
 
+= 1.0.34 =
+* Added 8 vulnerabilities
+
 = 1.0.33 =
 * Added 6 vulnerabilities
 

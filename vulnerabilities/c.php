@@ -64,6 +64,15 @@ $plugin_vulnerabilities["cforms2"] = array(
 	),
 );
 
+$plugin_vulnerabilities["chief-editor"] = array(
+	"1" => array(
+		"FirstVersion" => "1.2",
+		"LastVersion" => "3.7",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://packetstormsecurity.com/files/132879/WordPress-Chief-Editor-3.6.1-Cross-Site-Scripting.html"
+	),
+);
+
 $plugin_vulnerabilities["cip4-folder-download-widget"] = array(
 	"1" => array(
 		"FirstVersion" => "1.4",
@@ -235,6 +244,15 @@ $plugin_vulnerabilities["contus-video-gallery"] = array(
 	),
 );
 
+$plugin_vulnerabilities["copy-or-move-comments"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0.0",
+		"LastVersion" => "1.0.0",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://packetstormsecurity.com/files/132905/WordPress-Copy-Or-Move-Comments-1.0.0-Cross-Site-Scripting.html"
+	),
+);
+
 $plugin_vulnerabilities["cp-multi-view-calendar"] = array(
 	"1" => array(
 		"FirstVersion" => "1.01",
@@ -277,5 +295,14 @@ $plugin_vulnerabilities["crossslide-jquery-plugin-for-wordpress"] = array(
 		"LastVersion" => "2.0.5",
 		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
 		"URL" => "http://packetstormsecurity.com/files/130313/WordPress-Cross-Slide-2.0.5-Cross-Site-Request-Forgery-Cross-Site-Scripting.html"
+	),
+);
+
+$plugin_vulnerabilities["customize-youtube-videos"] = array(
+	"1" => array(
+		"FirstVersion" => "0.1",
+		"LastVersion" => "0.2",
+		"TypeOfVulnerability" => "reflected cross-site scripting (XSS)",
+		"URL" => "https://packetstormsecurity.com/files/132906/WordPress-Customize-Youtube-Videos-0.2-Cross-Site-Scripting.html"
 	),
 );

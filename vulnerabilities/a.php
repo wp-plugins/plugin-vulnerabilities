@@ -13,6 +13,15 @@ $plugin_vulnerabilities["ab-google-map-travel"] = array(
 	),
 );
 
+$plugin_vulnerabilities["accurate-form-data-real-time-form-validation"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.2",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://packetstormsecurity.com/files/132911/WordPress-WP-Accurate-Form-Data-1.2-XSS-CSRF.html"
+	),
+);
+
 $plugin_vulnerabilities["acf-frontend-display"] = array(
 	"1" => array(
 		"FirstVersion" => "",
@@ -82,6 +91,15 @@ $plugin_vulnerabilities["advanced-custom-fields"] = array(
 		"LastVersion" => "3.5.1",
 		"TypeOfVulnerability" => "remote file inclusion (RFI)",
 		"URL" => "http://ceriksen.com/2012/11/14/wordpress-advanced-custom-fields-remote-file-inclusion-vulnerability/"
+	),
+);
+
+$plugin_vulnerabilities["advertisement-management"] = array(
+	"1" => array(
+		"FirstVersion" => "1.0",
+		"LastVersion" => "1.0",
+		"TypeOfVulnerability" => "cross-site request forgery (CSRF)/cross-site scripting (XSS)",
+		"URL" => "https://packetstormsecurity.com/files/132886/WordPress-Advertisement-Management-1.0-Cross-Site-Scripting.html"
 	),
 );
 
